@@ -1,0 +1,252 @@
+
+===== 2026-10-10 12:21 stages=['occ_embed', 'spatial'] device=cuda
+[occ] S02/c006: 5081 boxes
+[occ] S02/c007: 4216 boxes
+[occ] S02/c008: 3425 boxes
+[occ] S02/c009: 8234 boxes
+[occ] S05/c010: 4151 boxes
+[occ] S05/c016: 10845 boxes
+[occ] S05/c017: 5981 boxes
+[occ] S05/c018: 2486 boxes
+[occ] S05/c019: 673 boxes
+[occ] S05/c020: 2348 boxes
+[occ] S05/c021: 5878 boxes
+[occ] S05/c022: 12478 boxes
+[occ] S05/c023: 4133 boxes
+[occ] S05/c024: 863 boxes
+[occ] S05/c025: 5740 boxes
+[occ] S05/c026: 13118 boxes
+[occ] S05/c027: 11142 boxes
+[occ] S05/c028: 8236 boxes
+[occ] S05/c029: 12694 boxes
+[occ] S05/c033: 23866 boxes
+[occ] S05/c034: 14963 boxes
+[occ] S05/c035: 13626 boxes
+[occ] S05/c036: 11250 boxes
+stage occ_embed done in 27.5 min
+[clean] cosine seed 0: IDF1 0.4650
+[clean] gat_attn seed 0: IDF1 0.4732
+[clean] gat_attn seed 1: IDF1 0.4831
+[clean] gat_attn seed 2: IDF1 0.4839
+[clean] tgat seed 0: IDF1 0.4665
+[clean] tgat seed 1: IDF1 0.4668
+[clean] tgat seed 2: IDF1 0.4644
+[clean] tgat_lstm seed 0: IDF1 0.4623
+[clean] tgat_lstm seed 1: IDF1 0.4502
+[clean] tgat_lstm seed 2: IDF1 0.4551
+[clean] tgat_attn seed 0: IDF1 0.4834
+[clean] tgat_attn seed 1: IDF1 0.4829
+[clean] tgat_attn seed 2: IDF1 0.4842
+[occ30] cosine seed 0: IDF1 0.4602
+[occ30] gat_attn seed 0: IDF1 0.4643
+[occ30] gat_attn seed 1: IDF1 0.4765
+[occ30] gat_attn seed 2: IDF1 0.4743
+[occ30] tgat seed 0: IDF1 0.4612
+[occ30] tgat seed 1: IDF1 0.4600
+[occ30] tgat seed 2: IDF1 0.4666
+[occ30] tgat_lstm seed 0: IDF1 0.4567
+[occ30] tgat_lstm seed 1: IDF1 0.4561
+[occ30] tgat_lstm seed 2: IDF1 0.4577
+[occ30] tgat_attn seed 0: IDF1 0.4732
+[occ30] tgat_attn seed 1: IDF1 0.4809
+[occ30] tgat_attn seed 2: IDF1 0.4756
+[occ50] cosine seed 0: IDF1 0.4040
+[occ50] gat_attn seed 0: IDF1 0.3937
+[occ50] gat_attn seed 1: IDF1 0.4000
+[occ50] gat_attn seed 2: IDF1 0.4078
+[occ50] tgat seed 0: IDF1 0.4081
+[occ50] tgat seed 1: IDF1 0.4043
+[occ50] tgat seed 2: IDF1 0.4105
+[occ50] tgat_lstm seed 0: IDF1 0.3943
+[occ50] tgat_lstm seed 1: IDF1 0.3871
+[occ50] tgat_lstm seed 2: IDF1 0.3853
+[occ50] tgat_attn seed 0: IDF1 0.4051
+[occ50] tgat_attn seed 1: IDF1 0.4137
+[occ50] tgat_attn seed 2: IDF1 0.4118
+
+robust_occlusion
+condition            clean            occ30            occ50
+variant                                                     
+cosine     0.4650 ± 0.0000  0.4602 ± 0.0000  0.4040 ± 0.0000
+gat_attn   0.4801 ± 0.0060  0.4717 ± 0.0065  0.4005 ± 0.0070
+tgat       0.4659 ± 0.0013  0.4626 ± 0.0035  0.4076 ± 0.0031
+tgat_lstm  0.4558 ± 0.0061  0.4568 ± 0.0008  0.3889 ± 0.0048
+tgat_attn  0.4835 ± 0.0007  0.4765 ± 0.0040  0.4102 ± 0.0045
+stage spatial done in 0.7 min
+ALL DONE - now run 05_make_report.py
+
+===== 2026-10-10 13:52 stages=['boot', 'temporal'] device=cuda
+[clean] cosine seed 0: IDF1 0.4650
+[clean] gat_attn seed 0: IDF1 0.4732
+[clean] gat_attn seed 1: IDF1 0.4831
+[clean] gat_attn seed 2: IDF1 0.4839
+[clean] tgat seed 0: IDF1 0.4665
+[clean] tgat seed 1: IDF1 0.4668
+[clean] tgat seed 2: IDF1 0.4644
+[clean] tgat_lstm seed 0: IDF1 0.4623
+[clean] tgat_lstm seed 1: IDF1 0.4502
+[clean] tgat_lstm seed 2: IDF1 0.4551
+[clean] tgat_attn seed 0: IDF1 0.4834
+[clean] tgat_attn seed 1: IDF1 0.4829
+[clean] tgat_attn seed 2: IDF1 0.4842
+
+paired bootstrap over GT identities
+           comparison  IDF1 difference  95% CI low  95% CI high  p (one-sided, diff <= 0)  identities
+   tgat_attn - cosine         0.018512    0.010458     0.026888                    0.0000         482
+    gat_attn - cosine         0.015106    0.008759     0.021758                    0.0000         482
+   tgat_lstm - cosine        -0.009119   -0.018584     0.000332                    0.9705         482
+        tgat - cosine         0.000935   -0.007946     0.009814                    0.4140         482
+tgat_attn - tgat_lstm         0.027632    0.018511     0.036899                    0.0000         482
+ tgat_attn - gat_attn         0.003407   -0.001023     0.008131                    0.0671         482
+stage boot done in 0.3 min
+[observed 100%] cosine seed 0: IDF1 0.4650
+[observed 100%] gat_attn seed 0: IDF1 0.4732
+[observed 100%] gat_attn seed 1: IDF1 0.4831
+[observed 100%] gat_attn seed 2: IDF1 0.4839
+[observed 100%] tgat seed 0: IDF1 0.4665
+[observed 100%] tgat seed 1: IDF1 0.4668
+[observed 100%] tgat seed 2: IDF1 0.4644
+[observed 100%] tgat_lstm seed 0: IDF1 0.4623
+[observed 100%] tgat_lstm seed 1: IDF1 0.4502
+[observed 100%] tgat_lstm seed 2: IDF1 0.4551
+[observed 100%] tgat_attn seed 0: IDF1 0.4834
+[observed 100%] tgat_attn seed 1: IDF1 0.4829
+[observed 100%] tgat_attn seed 2: IDF1 0.4842
+[observed 50%] cosine seed 0: IDF1 0.4498
+[observed 50%] gat_attn seed 0: IDF1 0.4545
+[observed 50%] gat_attn seed 1: IDF1 0.4684
+[observed 50%] gat_attn seed 2: IDF1 0.4675
+[observed 50%] tgat seed 0: IDF1 0.4608
+[observed 50%] tgat seed 1: IDF1 0.4554
+[observed 50%] tgat seed 2: IDF1 0.4513
+[observed 50%] tgat_lstm seed 0: IDF1 0.4538
+[observed 50%] tgat_lstm seed 1: IDF1 0.4539
+[observed 50%] tgat_lstm seed 2: IDF1 0.4604
+[observed 50%] tgat_attn seed 0: IDF1 0.4655
+[observed 50%] tgat_attn seed 1: IDF1 0.4745
+[observed 50%] tgat_attn seed 2: IDF1 0.4710
+[observed 25%] cosine seed 0: IDF1 0.4423
+[observed 25%] gat_attn seed 0: IDF1 0.4521
+[observed 25%] gat_attn seed 1: IDF1 0.4544
+[observed 25%] gat_attn seed 2: IDF1 0.4572
+[observed 25%] tgat seed 0: IDF1 0.4572
+[observed 25%] tgat seed 1: IDF1 0.4544
+[observed 25%] tgat seed 2: IDF1 0.4444
+[observed 25%] tgat_lstm seed 0: IDF1 0.4494
+[observed 25%] tgat_lstm seed 1: IDF1 0.4476
+[observed 25%] tgat_lstm seed 2: IDF1 0.4555
+[observed 25%] tgat_attn seed 0: IDF1 0.4566
+[observed 25%] tgat_attn seed 1: IDF1 0.4567
+[observed 25%] tgat_attn seed 2: IDF1 0.4614
+[observed 10%] cosine seed 0: IDF1 0.4389
+[observed 10%] gat_attn seed 0: IDF1 0.4498
+[observed 10%] gat_attn seed 1: IDF1 0.4624
+[observed 10%] gat_attn seed 2: IDF1 0.4536
+[observed 10%] tgat seed 0: IDF1 0.4495
+[observed 10%] tgat seed 1: IDF1 0.4475
+[observed 10%] tgat seed 2: IDF1 0.4431
+[observed 10%] tgat_lstm seed 0: IDF1 0.4495
+[observed 10%] tgat_lstm seed 1: IDF1 0.4469
+[observed 10%] tgat_lstm seed 2: IDF1 0.4506
+[observed 10%] tgat_attn seed 0: IDF1 0.4527
+[observed 10%] tgat_attn seed 1: IDF1 0.4607
+[observed 10%] tgat_attn seed 2: IDF1 0.4568
+
+robust_temporal
+condition     observed 10%    observed 100%     observed 25%     observed 50%
+variant                                                                      
+cosine     0.4389 ± 0.0000  0.4650 ± 0.0000  0.4423 ± 0.0000  0.4498 ± 0.0000
+gat_attn   0.4553 ± 0.0064  0.4801 ± 0.0060  0.4546 ± 0.0025  0.4634 ± 0.0078
+tgat       0.4467 ± 0.0033  0.4659 ± 0.0013  0.4520 ± 0.0068  0.4558 ± 0.0048
+tgat_lstm  0.4490 ± 0.0019  0.4558 ± 0.0061  0.4508 ± 0.0041  0.4560 ± 0.0038
+tgat_attn  0.4568 ± 0.0040  0.4835 ± 0.0007  0.4582 ± 0.0028  0.4703 ± 0.0046
+stage temporal done in 0.8 min
+ALL DONE - now run 05_make_report.py
+
+===== 2026-10-12 16:53 stages=['boot', 'temporal'] device=cuda
+[clean] cosine seed 0: IDF1 0.4862
+[clean] gat_attn seed 0: IDF1 0.4764
+[clean] gat_attn seed 1: IDF1 0.4837
+[clean] gat_attn seed 2: IDF1 0.5031
+[clean] tgat seed 0: IDF1 0.5076
+[clean] tgat seed 1: IDF1 0.5156
+[clean] tgat seed 2: IDF1 0.4901
+[clean] tgat_lstm seed 0: IDF1 0.4747
+[clean] tgat_lstm seed 1: IDF1 0.4823
+[clean] tgat_lstm seed 2: IDF1 0.4729
+[clean] tgat_attn seed 0: IDF1 0.4490
+[clean] tgat_attn seed 1: IDF1 0.5029
+[clean] tgat_attn seed 2: IDF1 0.4659
+
+paired bootstrap over GT identities
+           comparison  IDF1 difference  95% CI low  95% CI high  p (one-sided, diff <= 0)  identities
+   tgat_attn - cosine        -0.013590   -0.029406     0.001848                    0.9574         482
+    gat_attn - cosine         0.001533   -0.013357     0.016842                    0.4130         482
+   tgat_lstm - cosine        -0.009556   -0.026087     0.007636                    0.8640         482
+        tgat - cosine         0.018246    0.002043     0.034969                    0.0119         482
+tgat_attn - tgat_lstm        -0.004034   -0.017550     0.009091                    0.7318         482
+ tgat_attn - gat_attn        -0.015124   -0.025096    -0.005158                    0.9986         482
+stage boot done in 0.5 min
+[observed 100%] cosine seed 0: IDF1 0.4862
+[observed 100%] gat_attn seed 0: IDF1 0.4764
+[observed 100%] gat_attn seed 1: IDF1 0.4837
+[observed 100%] gat_attn seed 2: IDF1 0.5031
+[observed 100%] tgat seed 0: IDF1 0.5076
+[observed 100%] tgat seed 1: IDF1 0.5156
+[observed 100%] tgat seed 2: IDF1 0.4901
+[observed 100%] tgat_lstm seed 0: IDF1 0.4747
+[observed 100%] tgat_lstm seed 1: IDF1 0.4823
+[observed 100%] tgat_lstm seed 2: IDF1 0.4729
+[observed 100%] tgat_attn seed 0: IDF1 0.4490
+[observed 100%] tgat_attn seed 1: IDF1 0.5029
+[observed 100%] tgat_attn seed 2: IDF1 0.4659
+[observed 50%] cosine seed 0: IDF1 0.4789
+[observed 50%] gat_attn seed 0: IDF1 0.4904
+[observed 50%] gat_attn seed 1: IDF1 0.4967
+[observed 50%] gat_attn seed 2: IDF1 0.4748
+[observed 50%] tgat seed 0: IDF1 0.4964
+[observed 50%] tgat seed 1: IDF1 0.4851
+[observed 50%] tgat seed 2: IDF1 0.4796
+[observed 50%] tgat_lstm seed 0: IDF1 0.4703
+[observed 50%] tgat_lstm seed 1: IDF1 0.4763
+[observed 50%] tgat_lstm seed 2: IDF1 0.4647
+[observed 50%] tgat_attn seed 0: IDF1 0.5019
+[observed 50%] tgat_attn seed 1: IDF1 0.4751
+[observed 50%] tgat_attn seed 2: IDF1 0.4855
+[observed 25%] cosine seed 0: IDF1 0.4699
+[observed 25%] gat_attn seed 0: IDF1 0.4639
+[observed 25%] gat_attn seed 1: IDF1 0.4557
+[observed 25%] gat_attn seed 2: IDF1 0.4736
+[observed 25%] tgat seed 0: IDF1 0.4780
+[observed 25%] tgat seed 1: IDF1 0.4661
+[observed 25%] tgat seed 2: IDF1 0.4638
+[observed 25%] tgat_lstm seed 0: IDF1 0.4619
+[observed 25%] tgat_lstm seed 1: IDF1 0.4699
+[observed 25%] tgat_lstm seed 2: IDF1 0.4571
+[observed 25%] tgat_attn seed 0: IDF1 0.4830
+[observed 25%] tgat_attn seed 1: IDF1 0.4582
+[observed 25%] tgat_attn seed 2: IDF1 0.4683
+[observed 10%] cosine seed 0: IDF1 0.4611
+[observed 10%] gat_attn seed 0: IDF1 0.4217
+[observed 10%] gat_attn seed 1: IDF1 0.4202
+[observed 10%] gat_attn seed 2: IDF1 0.4649
+[observed 10%] tgat seed 0: IDF1 0.4701
+[observed 10%] tgat seed 1: IDF1 0.4513
+[observed 10%] tgat seed 2: IDF1 0.4609
+[observed 10%] tgat_lstm seed 0: IDF1 0.4551
+[observed 10%] tgat_lstm seed 1: IDF1 0.4616
+[observed 10%] tgat_lstm seed 2: IDF1 0.4468
+[observed 10%] tgat_attn seed 0: IDF1 0.4464
+[observed 10%] tgat_attn seed 1: IDF1 0.4479
+[observed 10%] tgat_attn seed 2: IDF1 0.4322
+
+robust_temporal
+condition     observed 10%    observed 100%     observed 25%     observed 50%
+variant                                                                      
+cosine     0.4611 ± 0.0000  0.4862 ± 0.0000  0.4699 ± 0.0000  0.4789 ± 0.0000
+gat_attn   0.4356 ± 0.0254  0.4877 ± 0.0138  0.4644 ± 0.0090  0.4873 ± 0.0113
+tgat       0.4608 ± 0.0094  0.5044 ± 0.0130  0.4693 ± 0.0076  0.4870 ± 0.0086
+tgat_lstm  0.4545 ± 0.0074  0.4766 ± 0.0050  0.4630 ± 0.0065  0.4704 ± 0.0058
+tgat_attn  0.4422 ± 0.0086  0.4726 ± 0.0276  0.4698 ± 0.0125  0.4875 ± 0.0135
+stage temporal done in 1.5 min
+ALL DONE - now run 05_make_report.py

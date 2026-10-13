@@ -1,0 +1,3 @@
+prediction,old per-camera mean IDF1,old per-camera mean MOTA,MTMC IDF1,MTMC MOTA
+proposed (tgat_attn),0.9914664026815349,1.0,0.6950753960679519,0.9872112998663867
+cross-camera links destroyed,0.9914664026815349,1.0,0.6811414392059554,0.9854456957434625

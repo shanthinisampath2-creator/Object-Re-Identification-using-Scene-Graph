@@ -1,0 +1,44 @@
+cityflow: NOT AVAILABLE (FileNotFoundError: No CityFlow root (train/ + validation/) found under data\cityflow)
+duke: NOT AVAILABLE (FileNotFoundError: No DukeMTMC-reID root found under data\duke)
+
+AVAILABLE: 
+cityflow: NOT AVAILABLE (FileNotFoundError: No CityFlow root (train/ + validation/) found under data\cityflow)
+duke: NOT AVAILABLE (FileNotFoundError: No DukeMTMC-reID root found under data\duke)
+
+AVAILABLE: 
+cityflow: F:\JShanthini\REID_Revision\data\cityflow
+duke: NOT AVAILABLE (FileNotFoundError: No DukeMTMC-reID root found under F:\JShanthini\REID_Revision\data\duke)
+
+CityFlow layout check
+  S01 (train): 5 cameras | det files 5 ['det_mask_rcnn.txt'] | roi.jpg 5
+  S03 (train): 6 cameras | det files 6 ['det_mask_rcnn.txt'] | roi.jpg 6
+  S04 (train): 25 cameras | det files 25 ['det_mask_rcnn.txt'] | roi.jpg 25
+  S02 (validation): 4 cameras | det files 4 ['det_mask_rcnn.txt'] | roi.jpg 4
+  S05 (validation): 19 cameras | det files 19 ['det_mask_rcnn.txt'] | roi.jpg 19
+
+AVAILABLE: cityflow
+cityflow: F:\JShanthini\REID_Revision\data\cityflow
+duke: NOT AVAILABLE (FileNotFoundError: No DukeMTMC-reID root found under F:\JShanthini\REID_Revision\data\duke)
+
+CityFlow layout check
+  S01 (train): 5 cameras | det files 5 ['det_mask_rcnn.txt'] | roi.jpg 5
+  S03 (train): 6 cameras | det files 6 ['det_mask_rcnn.txt'] | roi.jpg 6
+  S04 (train): 25 cameras | det files 25 ['det_mask_rcnn.txt'] | roi.jpg 25
+  S02 (validation): 4 cameras | det files 4 ['det_mask_rcnn.txt'] | roi.jpg 4
+  S05 (validation): 19 cameras | det files 19 ['det_mask_rcnn.txt'] | roi.jpg 19
+
+AVAILABLE: cityflow
+cityflow: already at F:\JShanthini\REID_Revision\data\cityflow
+duke: F:\JShanthini\REID_Revision\data\duke
+
+CityFlow layout check
+  S01 (train): 5 cameras | det files 5 ['det_mask_rcnn.txt'] | roi.jpg 5
+  S03 (train): 6 cameras | det files 6 ['det_mask_rcnn.txt'] | roi.jpg 6
+  S04 (train): 25 cameras | det files 25 ['det_mask_rcnn.txt'] | roi.jpg 25
+  S02 (validation): 4 cameras | det files 4 ['det_mask_rcnn.txt'] | roi.jpg 4
+  S05 (validation): 19 cameras | det files 19 ['det_mask_rcnn.txt'] | roi.jpg 19
+  Duke bounding_box_train: 16522 images (expected 16522 / 2228 / 17661)
+  Duke query: 2228 images (expected 16522 / 2228 / 17661)
+  Duke bounding_box_test: 17661 images (expected 16522 / 2228 / 17661)
+
+AVAILABLE: cityflow, duke

@@ -1,0 +1,11 @@
+numpy
+scipy
+pandas
+scikit-learn
+opencv-python
+pillow
+matplotlib
+motmetrics
+torch-geometric
+kagglehub
+tabulate

@@ -1,0 +1,491 @@
+
+===== 2026-10-10 10:18 stages=['seed2', 'attnabl', 'merge', 'setCg'] device=cuda
+  [assoc mean/gat seed2] epoch 10 loss 0.7614 val 0.4706
+  [assoc mean/gat seed2] epoch 20 loss 0.5392 val 0.4619
+  [assoc mean/gat seed2] epoch 30 loss 0.3668 val 0.4503
+  [assoc mean/gat seed2] epoch 40 loss 0.2093 val 0.4458
+  [assoc mean/gat seed2] epoch 50 loss 0.0959 val 0.4418
+  [assoc mean/gat seed2] epoch 60 loss 0.0621 val 0.4351
+  [assoc mean/gat seed2] epoch 70 loss 0.0430 val 0.4343
+  [assoc mean/gat seed2] epoch 80 loss 0.0325 val 0.4345
+  [assoc mean/gat seed2] epoch 90 loss 0.0280 val 0.4329
+  [assoc mean/gat seed2] epoch 100 loss 0.0282 val 0.4359
+  [assoc mean/gat seed2] kept epoch 10 (S01 IDF1 0.4706)
+  [assoc mean/gat seed2] epoch 10 loss 0.7613 val 0.7127
+  [assoc mean/gat seed2] epoch 20 loss 0.5403 val 0.7153
+  [assoc mean/gat seed2] epoch 30 loss 0.3565 val 0.7533
+  [assoc mean/gat seed2] epoch 40 loss 0.1927 val 0.7741
+  [assoc mean/gat seed2] epoch 50 loss 0.0920 val 0.7766
+  [assoc mean/gat seed2] epoch 60 loss 0.0598 val 0.7776
+  [assoc mean/gat seed2] epoch 70 loss 0.0416 val 0.7820
+  [assoc mean/gat seed2] epoch 80 loss 0.0320 val 0.7793
+  [assoc mean/gat seed2] epoch 90 loss 0.0260 val 0.7835
+  [assoc mean/gat seed2] epoch 100 loss 0.0259 val 0.7835
+  [assoc mean/gat seed2] kept epoch 90 (S01 IDF1 0.7835)
+{"variant": "gat", "seed": 2, "S02_tau": 0.4, "S02_theta": 0.8022, "S02_tune_idf1": 0.4721, "S02_tuned_on": "S05", "S02_best_epoch": 10, "S02_idf1": 0.7002, "S02_idp": 0.7002, "S02_idr": 0.7002, "S02_mota": 0.9905, "S02_num_switches": 200, "S02_num_misses": 0, "S02_num_false_positives": 0, "S02_num_objects": 20956, "S02_FR": 0.8552, "S02_MER": 0.5625, "S02_pair_precision": 0.4375, "S02_pair_recall": 0.2946, "S02_edges_kept": 2191, "S02_components": 2, "S02_max_comp_size": 446, "S05_tau": 0.3, "S05_theta": 0.9427, "S05_tune_idf1": 0.7847, "S05_tuned_on": "S02", "S05_best_epoch": 90, "S05_idf1": 0.4319, "S05_idp": 0.4319, "S05_idr": 0.4319, "S05_mota": 0.9925, "S05_num_switches": 1227, "S05_num_misses": 0, "S05_num_false_positives": 0, "S05_num_objects": 164471, "S05_FR": 0.9792, "S05_MER": 0.6915, "S05_pair_precision": 0.3085, "S05_pair_recall": 0.073, "S05_edges_kept": 23269, "S05_components": 1, "S05_max_comp_size": 1779, "tune_idf1": 0.6284, "best_epoch": "10/90", "OVERALL_idf1": 0.4622, "OVERALL_idp": 0.4622, "OVERALL_idr": 0.4622, "OVERALL_num_switches": 1427, "OVERALL_num_objects": 185427, "OVERALL_mota": 0.9923, "minutes": 3.498}
+gat seeds [2]: 3.5 min
+  [assoc lstm/gat seed2] epoch 10 loss 0.7735 val 0.4677
+  [assoc lstm/gat seed2] epoch 20 loss 0.5604 val 0.4669
+  [assoc lstm/gat seed2] epoch 30 loss 0.3149 val 0.4590
+  [assoc lstm/gat seed2] epoch 40 loss 0.1621 val 0.4399
+  [assoc lstm/gat seed2] epoch 50 loss 0.0655 val 0.4256
+  [assoc lstm/gat seed2] epoch 60 loss 0.0349 val 0.4325
+  [assoc lstm/gat seed2] epoch 70 loss 0.0189 val 0.4335
+  [assoc lstm/gat seed2] epoch 80 loss 0.0128 val 0.4292
+  [assoc lstm/gat seed2] epoch 90 loss 0.0123 val 0.4296
+  [assoc lstm/gat seed2] epoch 100 loss 0.0124 val 0.4297
+  [assoc lstm/gat seed2] kept epoch 0 (S01 IDF1 0.4695)
+  [assoc lstm/gat seed2] epoch 10 loss 0.7735 val 0.7083
+  [assoc lstm/gat seed2] epoch 20 loss 0.5775 val 0.7173
+  [assoc lstm/gat seed2] epoch 30 loss 0.3315 val 0.7332
+  [assoc lstm/gat seed2] epoch 40 loss 0.1655 val 0.7458
+  [assoc lstm/gat seed2] epoch 50 loss 0.0645 val 0.7513
+  [assoc lstm/gat seed2] epoch 60 loss 0.0292 val 0.7948
+  [assoc lstm/gat seed2] epoch 70 loss 0.0162 val 0.7872
+  [assoc lstm/gat seed2] epoch 80 loss 0.0120 val 0.7836
+  [assoc lstm/gat seed2] epoch 90 loss 0.0117 val 0.7828
+  [assoc lstm/gat seed2] epoch 100 loss 0.0092 val 0.7828
+  [assoc lstm/gat seed2] kept epoch 60 (S01 IDF1 0.7948)
+{"variant": "gat_lstm", "seed": 2, "S02_tau": 0.5, "S02_theta": 0.3543, "S02_tune_idf1": 0.4697, "S02_tuned_on": "S05", "S02_best_epoch": 0, "S02_idf1": 0.6892, "S02_idp": 0.6892, "S02_idr": 0.6892, "S02_mota": 0.9911, "S02_num_switches": 187, "S02_num_misses": 0, "S02_num_false_positives": 0, "S02_num_objects": 20956, "S02_FR": 0.8138, "S02_MER": 0.6472, "S02_pair_precision": 0.3528, "S02_pair_recall": 0.3267, "S02_edges_kept": 1121, "S02_components": 23, "S02_max_comp_size": 402, "S05_tau": 0.1, "S05_theta": 0.8808, "S05_tune_idf1": 0.7948, "S05_tuned_on": "S02", "S05_best_epoch": 60, "S05_idf1": 0.4265, "S05_idp": 0.4265, "S05_idr": 0.4265, "S05_mota": 0.9926, "S05_num_switches": 1210, "S05_num_misses": 0, "S05_num_false_positives": 0, "S05_num_objects": 164471, "S05_FR": 0.9703, "S05_MER": 0.6777, "S05_pair_precision": 0.3223, "S05_pair_recall": 0.0762, "S05_edges_kept": 24494, "S05_components": 1, "S05_max_comp_size": 1779, "tune_idf1": 0.6322, "best_epoch": "0/60", "OVERALL_idf1": 0.4562, "OVERALL_idp": 0.4562, "OVERALL_idr": 0.4562, "OVERALL_num_switches": 1397, "OVERALL_num_objects": 185427, "OVERALL_mota": 0.9925, "minutes": 3.4876}
+gat_lstm seeds [2]: 3.5 min
+  [assoc attn/gat seed2] epoch 10 loss 0.8050 val 0.4672
+  [assoc attn/gat seed2] epoch 20 loss 0.8046 val 0.4673
+  [assoc attn/gat seed2] epoch 30 loss 0.8027 val 0.4685
+  [assoc attn/gat seed2] epoch 40 loss 0.7990 val 0.4679
+  [assoc attn/gat seed2] epoch 50 loss 0.7916 val 0.4687
+  [assoc attn/gat seed2] epoch 60 loss 0.7787 val 0.4656
+  [assoc attn/gat seed2] epoch 70 loss 0.7681 val 0.4688
+  [assoc attn/gat seed2] epoch 80 loss 0.7664 val 0.4665
+  [assoc attn/gat seed2] epoch 90 loss 0.7564 val 0.4657
+  [assoc attn/gat seed2] epoch 100 loss 0.7543 val 0.4640
+  [assoc attn/gat seed2] kept epoch 0 (S01 IDF1 0.4695)
+  [assoc attn/gat seed2] epoch 10 loss 0.8050 val 0.7011
+  [assoc attn/gat seed2] epoch 20 loss 0.8046 val 0.6995
+  [assoc attn/gat seed2] epoch 30 loss 0.8026 val 0.6995
+  [assoc attn/gat seed2] epoch 40 loss 0.7988 val 0.7012
+  [assoc attn/gat seed2] epoch 50 loss 0.7915 val 0.6969
+  [assoc attn/gat seed2] epoch 60 loss 0.7798 val 0.6994
+  [assoc attn/gat seed2] epoch 70 loss 0.7717 val 0.6993
+  [assoc attn/gat seed2] epoch 80 loss 0.7712 val 0.7007
+  [assoc attn/gat seed2] epoch 90 loss 0.7674 val 0.6987
+  [assoc attn/gat seed2] epoch 100 loss 0.7635 val 0.7001
+  [assoc attn/gat seed2] kept epoch 40 (S01 IDF1 0.7012)
+{"variant": "gat_attn", "seed": 2, "S02_tau": 0.5, "S02_theta": 0.3543, "S02_tune_idf1": 0.4697, "S02_tuned_on": "S05", "S02_best_epoch": 0, "S02_idf1": 0.6892, "S02_idp": 0.6892, "S02_idr": 0.6892, "S02_mota": 0.9911, "S02_num_switches": 187, "S02_num_misses": 0, "S02_num_false_positives": 0, "S02_num_objects": 20956, "S02_FR": 0.8138, "S02_MER": 0.6472, "S02_pair_precision": 0.3528, "S02_pair_recall": 0.3267, "S02_edges_kept": 1121, "S02_components": 23, "S02_max_comp_size": 402, "S05_tau": 0.1, "S05_theta": 0.8808, "S05_tune_idf1": 0.7012, "S05_tuned_on": "S02", "S05_best_epoch": 40, "S05_idf1": 0.4578, "S05_idp": 0.4578, "S05_idr": 0.4578, "S05_mota": 0.9923, "S05_num_switches": 1271, "S05_num_misses": 0, "S05_num_false_positives": 0, "S05_num_objects": 164471, "S05_FR": 0.9852, "S05_MER": 0.512, "S05_pair_precision": 0.488, "S05_pair_recall": 0.0691, "S05_edges_kept": 24494, "S05_components": 1, "S05_max_comp_size": 1779, "tune_idf1": 0.5855, "best_epoch": "0/40", "OVERALL_idf1": 0.4839, "OVERALL_idp": 0.4839, "OVERALL_idr": 0.4839, "OVERALL_num_switches": 1458, "OVERALL_num_objects": 185427, "OVERALL_mota": 0.9921, "minutes": 3.5915}
+gat_attn seeds [2]: 3.6 min
+  [assoc mean/tgat seed2] epoch 10 loss 0.7678 val 0.4704
+  [assoc mean/tgat seed2] epoch 20 loss 0.5713 val 0.4633
+  [assoc mean/tgat seed2] epoch 30 loss 0.3759 val 0.4472
+  [assoc mean/tgat seed2] epoch 40 loss 0.2134 val 0.4451
+  [assoc mean/tgat seed2] epoch 50 loss 0.1080 val 0.4451
+  [assoc mean/tgat seed2] epoch 60 loss 0.0632 val 0.4425
+  [assoc mean/tgat seed2] epoch 70 loss 0.0426 val 0.4410
+  [assoc mean/tgat seed2] epoch 80 loss 0.0361 val 0.4406
+  [assoc mean/tgat seed2] epoch 90 loss 0.0296 val 0.4420
+  [assoc mean/tgat seed2] epoch 100 loss 0.0334 val 0.4422
+  [assoc mean/tgat seed2] kept epoch 10 (S01 IDF1 0.4704)
+  [assoc mean/tgat seed2] epoch 10 loss 0.7677 val 0.7123
+  [assoc mean/tgat seed2] epoch 20 loss 0.5702 val 0.7123
+  [assoc mean/tgat seed2] epoch 30 loss 0.3715 val 0.7554
+  [assoc mean/tgat seed2] epoch 40 loss 0.2077 val 0.7633
+  [assoc mean/tgat seed2] epoch 50 loss 0.1054 val 0.7676
+  [assoc mean/tgat seed2] epoch 60 loss 0.0588 val 0.7571
+  [assoc mean/tgat seed2] epoch 70 loss 0.0416 val 0.7584
+  [assoc mean/tgat seed2] epoch 80 loss 0.0363 val 0.7671
+  [assoc mean/tgat seed2] epoch 90 loss 0.0294 val 0.7640
+  [assoc mean/tgat seed2] epoch 100 loss 0.0292 val 0.7644
+  [assoc mean/tgat seed2] kept epoch 50 (S01 IDF1 0.7676)
+{"variant": "tgat", "seed": 2, "S02_tau": 0.4, "S02_theta": 0.8022, "S02_tune_idf1": 0.472, "S02_tuned_on": "S05", "S02_best_epoch": 10, "S02_idf1": 0.7051, "S02_idp": 0.7051, "S02_idr": 0.7051, "S02_mota": 0.9904, "S02_num_switches": 202, "S02_num_misses": 0, "S02_num_false_positives": 0, "S02_num_objects": 20956, "S02_FR": 0.8483, "S02_MER": 0.5531, "S02_pair_precision": 0.4469, "S02_pair_recall": 0.2866, "S02_edges_kept": 2191, "S02_components": 2, "S02_max_comp_size": 446, "S05_tau": 0.3, "S05_theta": 0.9677, "S05_tune_idf1": 0.7751, "S05_tuned_on": "S02", "S05_best_epoch": 50, "S05_idf1": 0.4337, "S05_idp": 0.4337, "S05_idr": 0.4337, "S05_mota": 0.9924, "S05_num_switches": 1253, "S05_num_misses": 0, "S05_num_false_positives": 0, "S05_num_objects": 164471, "S05_FR": 0.9822, "S05_MER": 0.6051, "S05_pair_precision": 0.3949, "S05_pair_recall": 0.0635, "S05_edges_kept": 23269, "S05_components": 1, "S05_max_comp_size": 1779, "tune_idf1": 0.6236, "best_epoch": "10/50", "OVERALL_idf1": 0.4644, "OVERALL_idp": 0.4644, "OVERALL_idr": 0.4644, "OVERALL_num_switches": 1455, "OVERALL_num_objects": 185427, "OVERALL_mota": 0.9922, "minutes": 3.5597}
+tgat seeds [2]: 3.6 min
+  [assoc lstm/tgat seed2] epoch 10 loss 0.7732 val 0.4698
+  [assoc lstm/tgat seed2] epoch 20 loss 0.5987 val 0.4710
+  [assoc lstm/tgat seed2] epoch 30 loss 0.3658 val 0.4451
+  [assoc lstm/tgat seed2] epoch 40 loss 0.1495 val 0.4432
+  [assoc lstm/tgat seed2] epoch 50 loss 0.0618 val 0.4326
+  [assoc lstm/tgat seed2] epoch 60 loss 0.0286 val 0.4333
+  [assoc lstm/tgat seed2] epoch 70 loss 0.0164 val 0.4285
+  [assoc lstm/tgat seed2] epoch 80 loss 0.0136 val 0.4319
+  [assoc lstm/tgat seed2] epoch 90 loss 0.0110 val 0.4311
+  [assoc lstm/tgat seed2] epoch 100 loss 0.0101 val 0.4318
+  [assoc lstm/tgat seed2] kept epoch 20 (S01 IDF1 0.4710)
+  [assoc lstm/tgat seed2] epoch 10 loss 0.7732 val 0.7063
+  [assoc lstm/tgat seed2] epoch 20 loss 0.6014 val 0.7188
+  [assoc lstm/tgat seed2] epoch 30 loss 0.3206 val 0.7454
+  [assoc lstm/tgat seed2] epoch 40 loss 0.1616 val 0.7618
+  [assoc lstm/tgat seed2] epoch 50 loss 0.0709 val 0.7705
+  [assoc lstm/tgat seed2] epoch 60 loss 0.0314 val 0.7740
+  [assoc lstm/tgat seed2] epoch 70 loss 0.0188 val 0.7778
+  [assoc lstm/tgat seed2] epoch 80 loss 0.0147 val 0.7710
+  [assoc lstm/tgat seed2] epoch 90 loss 0.0121 val 0.7731
+  [assoc lstm/tgat seed2] epoch 100 loss 0.0123 val 0.7754
+  [assoc lstm/tgat seed2] kept epoch 70 (S01 IDF1 0.7778)
+{"variant": "tgat_lstm", "seed": 2, "S02_tau": 0.6, "S02_theta": 0.2689, "S02_tune_idf1": 0.4714, "S02_tuned_on": "S05", "S02_best_epoch": 20, "S02_idf1": 0.6882, "S02_idp": 0.6882, "S02_idr": 0.6882, "S02_mota": 0.9908, "S02_num_switches": 192, "S02_num_misses": 0, "S02_num_false_positives": 0, "S02_num_objects": 20956, "S02_FR": 0.8483, "S02_MER": 0.6357, "S02_pair_precision": 0.3643, "S02_pair_recall": 0.3066, "S02_edges_kept": 508, "S02_components": 128, "S02_max_comp_size": 116, "S05_tau": 0.1, "S05_theta": 0.9002, "S05_tune_idf1": 0.7778, "S05_tuned_on": "S02", "S05_best_epoch": 70, "S05_idf1": 0.4254, "S05_idp": 0.4254, "S05_idr": 0.4254, "S05_mota": 0.9926, "S05_num_switches": 1216, "S05_num_misses": 0, "S05_num_false_positives": 0, "S05_num_objects": 164471, "S05_FR": 0.9733, "S05_MER": 0.6731, "S05_pair_precision": 0.3269, "S05_pair_recall": 0.0752, "S05_edges_kept": 24494, "S05_components": 1, "S05_max_comp_size": 1779, "tune_idf1": 0.6246, "best_epoch": "20/70", "OVERALL_idf1": 0.4551, "OVERALL_idp": 0.4551, "OVERALL_idr": 0.4551, "OVERALL_num_switches": 1408, "OVERALL_num_objects": 185427, "OVERALL_mota": 0.9924, "minutes": 3.6546}
+tgat_lstm seeds [2]: 3.7 min
+  [assoc attn/tgat seed2] epoch 10 loss 0.8038 val 0.4691
+  [assoc attn/tgat seed2] epoch 20 loss 0.7969 val 0.4681
+  [assoc attn/tgat seed2] epoch 30 loss 0.7924 val 0.4641
+  [assoc attn/tgat seed2] epoch 40 loss 0.7949 val 0.4676
+  [assoc attn/tgat seed2] epoch 50 loss 0.7716 val 0.4636
+  [assoc attn/tgat seed2] epoch 60 loss 0.7613 val 0.4653
+  [assoc attn/tgat seed2] epoch 70 loss 0.7383 val 0.4635
+  [assoc attn/tgat seed2] epoch 80 loss 0.7316 val 0.4638
+  [assoc attn/tgat seed2] epoch 90 loss 0.7193 val 0.4628
+  [assoc attn/tgat seed2] epoch 100 loss 0.7202 val 0.4633
+  [assoc attn/tgat seed2] kept epoch 0 (S01 IDF1 0.4695)
+  [assoc attn/tgat seed2] epoch 10 loss 0.8039 val 0.6982
+  [assoc attn/tgat seed2] epoch 20 loss 0.7976 val 0.7006
+  [assoc attn/tgat seed2] epoch 30 loss 0.7933 val 0.7008
+  [assoc attn/tgat seed2] epoch 40 loss 0.7792 val 0.7055
+  [assoc attn/tgat seed2] epoch 50 loss 0.7598 val 0.7008
+  [assoc attn/tgat seed2] epoch 60 loss 0.7617 val 0.7025
+  [assoc attn/tgat seed2] epoch 70 loss 0.7241 val 0.7041
+  [assoc attn/tgat seed2] epoch 80 loss 0.7340 val 0.6993
+  [assoc attn/tgat seed2] epoch 90 loss 0.7188 val 0.7006
+  [assoc attn/tgat seed2] epoch 100 loss 0.7077 val 0.7008
+  [assoc attn/tgat seed2] kept epoch 40 (S01 IDF1 0.7055)
+{"variant": "tgat_attn", "seed": 2, "S02_tau": 0.5, "S02_theta": 0.3543, "S02_tune_idf1": 0.4697, "S02_tuned_on": "S05", "S02_best_epoch": 0, "S02_idf1": 0.6892, "S02_idp": 0.6892, "S02_idr": 0.6892, "S02_mota": 0.9911, "S02_num_switches": 187, "S02_num_misses": 0, "S02_num_false_positives": 0, "S02_num_objects": 20956, "S02_FR": 0.8138, "S02_MER": 0.6472, "S02_pair_precision": 0.3528, "S02_pair_recall": 0.3267, "S02_edges_kept": 1121, "S02_components": 23, "S02_max_comp_size": 402, "S05_tau": 0.4, "S05_theta": 0.9168, "S05_tune_idf1": 0.7096, "S05_tuned_on": "S02", "S05_best_epoch": 40, "S05_idf1": 0.4581, "S05_idp": 0.4581, "S05_idr": 0.4581, "S05_mota": 0.9924, "S05_num_switches": 1257, "S05_num_misses": 0, "S05_num_false_positives": 0, "S05_num_objects": 164471, "S05_FR": 0.9852, "S05_MER": 0.4988, "S05_pair_precision": 0.5012, "S05_pair_recall": 0.0737, "S05_edges_kept": 18954, "S05_components": 5, "S05_max_comp_size": 1774, "tune_idf1": 0.5896, "best_epoch": "0/40", "OVERALL_idf1": 0.4842, "OVERALL_idp": 0.4842, "OVERALL_idr": 0.4842, "OVERALL_num_switches": 1444, "OVERALL_num_objects": 185427, "OVERALL_mota": 0.9922, "minutes": 3.8395}
+tgat_attn seeds [2]: 3.8 min
+  [assoc lstm/tgat seed2] epoch 10 loss 0.8704 val 0.4836
+  [assoc lstm/tgat seed2] epoch 20 loss 0.5221 val 0.4663
+  [assoc lstm/tgat seed2] epoch 30 loss 0.2677 val 0.4559
+  [assoc lstm/tgat seed2] epoch 40 loss 0.1331 val 0.4691
+  [assoc lstm/tgat seed2] epoch 50 loss 0.0669 val 0.4633
+  [assoc lstm/tgat seed2] epoch 60 loss 0.0417 val 0.4594
+  [assoc lstm/tgat seed2] epoch 70 loss 0.0302 val 0.4591
+  [assoc lstm/tgat seed2] epoch 80 loss 0.0234 val 0.4591
+  [assoc lstm/tgat seed2] epoch 90 loss 0.0198 val 0.4549
+  [assoc lstm/tgat seed2] epoch 100 loss 0.0198 val 0.4556
+  [assoc lstm/tgat seed2] kept epoch 0 (S01 IDF1 0.4857)
+  [assoc lstm/tgat seed2] epoch 10 loss 0.8699 val 0.7009
+  [assoc lstm/tgat seed2] epoch 20 loss 0.5212 val 0.7189
+  [assoc lstm/tgat seed2] epoch 30 loss 0.2651 val 0.7177
+  [assoc lstm/tgat seed2] epoch 40 loss 0.1306 val 0.7294
+  [assoc lstm/tgat seed2] epoch 50 loss 0.0693 val 0.7296
+  [assoc lstm/tgat seed2] epoch 60 loss 0.0402 val 0.7334
+  [assoc lstm/tgat seed2] epoch 70 loss 0.0312 val 0.7355
+  [assoc lstm/tgat seed2] epoch 80 loss 0.0228 val 0.7337
+  [assoc lstm/tgat seed2] epoch 90 loss 0.0198 val 0.7328
+  [assoc lstm/tgat seed2] epoch 100 loss 0.0181 val 0.7301
+  [assoc lstm/tgat seed2] kept epoch 70 (S01 IDF1 0.7355)
+{"variant": "tgat_lstm_nomask", "seed": 2, "S02_tau": 0.1, "S02_theta": 0.8022, "S02_tune_idf1": 0.4857, "S02_tuned_on": "S05", "S02_best_epoch": 0, "S02_idf1": 0.6658, "S02_idp": 0.6658, "S02_idr": 0.6658, "S02_mota": 0.9881, "S02_num_switches": 250, "S02_num_misses": 0, "S02_num_false_positives": 0, "S02_num_objects": 20956, "S02_FR": 0.9448, "S02_MER": 0.7595, "S02_pair_precision": 0.2405, "S02_pair_recall": 0.1643, "S02_edges_kept": 5754, "S02_components": 1, "S02_max_comp_size": 450, "S05_tau": 0.1, "S05_theta": 0.832, "S05_tune_idf1": 0.7355, "S05_tuned_on": "S02", "S05_best_epoch": 70, "S05_idf1": 0.4507, "S05_idp": 0.4507, "S05_idr": 0.4507, "S05_mota": 0.9921, "S05_num_switches": 1295, "S05_num_misses": 0, "S05_num_false_positives": 0, "S05_num_objects": 164471, "S05_FR": 0.9822, "S05_MER": 0.6557, "S05_pair_precision": 0.3443, "S05_pair_recall": 0.1101, "S05_edges_kept": 25377, "S05_components": 1, "S05_max_comp_size": 1779, "tune_idf1": 0.6106, "best_epoch": "0/70", "OVERALL_idf1": 0.475, "OVERALL_idp": 0.475, "OVERALL_idr": 0.475, "OVERALL_num_switches": 1545, "OVERALL_num_objects": 185427, "OVERALL_mota": 0.9917, "minutes": 4.6261}
+tgat_lstm_nomask seeds [2]: 4.6 min
+  [assoc lstm/tgat seed2] epoch 10 loss 0.7732 val 0.4610
+  [assoc lstm/tgat seed2] epoch 20 loss 0.6039 val 0.4520
+  [assoc lstm/tgat seed2] epoch 30 loss 0.3536 val 0.4352
+  [assoc lstm/tgat seed2] epoch 40 loss 0.1509 val 0.4332
+  [assoc lstm/tgat seed2] epoch 50 loss 0.0596 val 0.4239
+  [assoc lstm/tgat seed2] epoch 60 loss 0.0266 val 0.4202
+  [assoc lstm/tgat seed2] epoch 70 loss 0.0162 val 0.4248
+  [assoc lstm/tgat seed2] epoch 80 loss 0.0130 val 0.4252
+  [assoc lstm/tgat seed2] epoch 90 loss 0.0100 val 0.4249
+  [assoc lstm/tgat seed2] epoch 100 loss 0.0099 val 0.4256
+  [assoc lstm/tgat seed2] kept epoch 10 (S01 IDF1 0.4610)
+  [assoc lstm/tgat seed2] epoch 10 loss 0.7733 val 0.7062
+  [assoc lstm/tgat seed2] epoch 20 loss 0.5913 val 0.7176
+  [assoc lstm/tgat seed2] epoch 30 loss 0.3287 val 0.7493
+  [assoc lstm/tgat seed2] epoch 40 loss 0.1571 val 0.7505
+  [assoc lstm/tgat seed2] epoch 50 loss 0.0680 val 0.7570
+  [assoc lstm/tgat seed2] epoch 60 loss 0.0279 val 0.7675
+  [assoc lstm/tgat seed2] epoch 70 loss 0.0176 val 0.7684
+  [assoc lstm/tgat seed2] epoch 80 loss 0.0143 val 0.7726
+  [assoc lstm/tgat seed2] epoch 90 loss 0.0107 val 0.7727
+  [assoc lstm/tgat seed2] epoch 100 loss 0.0121 val 0.7718
+  [assoc lstm/tgat seed2] kept epoch 90 (S01 IDF1 0.7727)
+{"variant": "tgat_lstm_cc", "seed": 2, "S02_tau": 0.4, "S02_theta": 0.8022, "S02_tune_idf1": 0.4621, "S02_tuned_on": "S05", "S02_best_epoch": 10, "S02_idf1": 0.6936, "S02_idp": 0.6936, "S02_idr": 0.6936, "S02_mota": 0.9906, "S02_num_switches": 198, "S02_num_misses": 0, "S02_num_false_positives": 0, "S02_num_objects": 20956, "S02_FR": 0.869, "S02_MER": 0.5932, "S02_pair_precision": 0.4068, "S02_pair_recall": 0.2886, "S02_edges_kept": 2191, "S02_components": 2, "S02_max_comp_size": 446, "S05_tau": 0.2, "S05_theta": 0.9168, "S05_tune_idf1": 0.7787, "S05_tuned_on": "S02", "S05_best_epoch": 90, "S05_idf1": 0.4252, "S05_idp": 0.4252, "S05_idr": 0.4252, "S05_mota": 0.9926, "S05_num_switches": 1209, "S05_num_misses": 0, "S05_num_false_positives": 0, "S05_num_objects": 164471, "S05_FR": 0.9614, "S05_MER": 0.6898, "S05_pair_precision": 0.3102, "S05_pair_recall": 0.0788, "S05_edges_kept": 24225, "S05_components": 1, "S05_max_comp_size": 1779, "tune_idf1": 0.6204, "best_epoch": "10/90", "OVERALL_idf1": 0.4556, "OVERALL_idp": 0.4556, "OVERALL_idr": 0.4556, "OVERALL_num_switches": 1407, "OVERALL_num_objects": 185427, "OVERALL_mota": 0.9924, "minutes": 3.5684}
+tgat_lstm_cc seeds [2]: 3.6 min
+  [assoc lstm/tgat seed2] epoch 10 loss 0.7732 val 0.4725
+  [assoc lstm/tgat seed2] epoch 20 loss 0.5537 val 0.4201
+  [assoc lstm/tgat seed2] epoch 30 loss 0.3017 val 0.4139
+  [assoc lstm/tgat seed2] epoch 40 loss 0.1267 val 0.3928
+  [assoc lstm/tgat seed2] epoch 50 loss 0.0508 val 0.3213
+  [assoc lstm/tgat seed2] epoch 60 loss 0.0256 val 0.2978
+  [assoc lstm/tgat seed2] epoch 70 loss 0.0141 val 0.2812
+  [assoc lstm/tgat seed2] epoch 80 loss 0.0102 val 0.2734
+  [assoc lstm/tgat seed2] epoch 90 loss 0.0086 val 0.2860
+  [assoc lstm/tgat seed2] epoch 100 loss 0.0094 val 0.2835
+  [assoc lstm/tgat seed2] kept epoch 10 (S01 IDF1 0.4725)
+  [assoc lstm/tgat seed2] epoch 10 loss 0.7733 val 0.7022
+  [assoc lstm/tgat seed2] epoch 20 loss 0.5473 val 0.7008
+  [assoc lstm/tgat seed2] epoch 30 loss 0.3169 val 0.7135
+  [assoc lstm/tgat seed2] epoch 40 loss 0.1472 val 0.7145
+  [assoc lstm/tgat seed2] epoch 50 loss 0.0601 val 0.7028
+  [assoc lstm/tgat seed2] epoch 60 loss 0.0265 val 0.7007
+  [assoc lstm/tgat seed2] epoch 70 loss 0.0176 val 0.6631
+  [assoc lstm/tgat seed2] epoch 80 loss 0.0156 val 0.6652
+  [assoc lstm/tgat seed2] epoch 90 loss 0.0112 val 0.6840
+  [assoc lstm/tgat seed2] epoch 100 loss 0.0116 val 0.6481
+  [assoc lstm/tgat seed2] kept epoch 40 (S01 IDF1 0.7145)
+{"variant": "tgat_lstm_single", "seed": 2, "S02_tau": 0.1, "S02_theta": 0.9526, "S02_tune_idf1": 0.4725, "S02_tuned_on": "S05", "S02_best_epoch": 10, "S02_idf1": 0.7022, "S02_idp": 0.7022, "S02_idr": 0.7022, "S02_mota": 0.9886, "S02_num_switches": 239, "S02_num_misses": 0, "S02_num_false_positives": 0, "S02_num_objects": 20956, "S02_FR": 0.8966, "S02_MER": 0.6336, "S02_pair_precision": 0.3664, "S02_pair_recall": 0.1924, "S02_edges_kept": 5507, "S02_components": 1, "S02_max_comp_size": 450, "S05_tau": 0.6, "S05_theta": 0.99, "S05_tune_idf1": 0.7337, "S05_tuned_on": "S02", "S05_best_epoch": 40, "S05_idf1": 0.3999, "S05_idp": 0.3999, "S05_idr": 0.3999, "S05_mota": 0.9932, "S05_num_switches": 1111, "S05_num_misses": 0, "S05_num_false_positives": 0, "S05_num_objects": 164471, "S05_FR": 0.9644, "S05_MER": 0.9194, "S05_pair_precision": 0.0806, "S05_pair_recall": 0.2067, "S05_edges_kept": 3956, "S05_components": 428, "S05_max_comp_size": 1191, "tune_idf1": 0.6031, "best_epoch": "10/40", "OVERALL_idf1": 0.4341, "OVERALL_idp": 0.4341, "OVERALL_idr": 0.4341, "OVERALL_num_switches": 1350, "OVERALL_num_objects": 185427, "OVERALL_mota": 0.9927, "minutes": 3.2989}
+tgat_lstm_single seeds [2]: 3.3 min
+stage seed2 done in 33.2 min
+  [assoc attn/tgat seed0] epoch 10 loss 1.0360 val 0.4894
+  [assoc attn/tgat seed0] epoch 20 loss 1.0028 val 0.4839
+  [assoc attn/tgat seed0] epoch 30 loss 0.9822 val 0.4916
+  [assoc attn/tgat seed0] epoch 40 loss 0.9074 val 0.4783
+  [assoc attn/tgat seed0] epoch 50 loss 0.8582 val 0.4726
+  [assoc attn/tgat seed0] epoch 60 loss 0.8179 val 0.4763
+  [assoc attn/tgat seed0] epoch 70 loss 0.7783 val 0.4785
+  [assoc attn/tgat seed0] epoch 80 loss 0.7493 val 0.4769
+  [assoc attn/tgat seed0] epoch 90 loss 0.7480 val 0.4774
+  [assoc attn/tgat seed0] epoch 100 loss 0.7396 val 0.4742
+  [assoc attn/tgat seed0] kept epoch 30 (S01 IDF1 0.4916)
+  [assoc attn/tgat seed0] epoch 10 loss 1.0362 val 0.6887
+  [assoc attn/tgat seed0] epoch 20 loss 0.9887 val 0.6904
+  [assoc attn/tgat seed0] epoch 30 loss 0.9822 val 0.6871
+  [assoc attn/tgat seed0] epoch 40 loss 0.9291 val 0.6904
+  [assoc attn/tgat seed0] epoch 50 loss 0.8877 val 0.6885
+  [assoc attn/tgat seed0] epoch 60 loss 0.8428 val 0.6898
+  [assoc attn/tgat seed0] epoch 70 loss 0.7982 val 0.6918
+  [assoc attn/tgat seed0] epoch 80 loss 0.7755 val 0.6906
+  [assoc attn/tgat seed0] epoch 90 loss 0.7731 val 0.6925
+  [assoc attn/tgat seed0] epoch 100 loss 0.7643 val 0.6898
+  [assoc attn/tgat seed0] kept epoch 90 (S01 IDF1 0.6925)
+{"variant": "tgat_attn_nomask", "seed": 0, "S02_tau": 0.1, "S02_theta": 0.8808, "S02_tune_idf1": 0.4916, "S02_tuned_on": "S05", "S02_best_epoch": 30, "S02_idf1": 0.6681, "S02_idp": 0.6681, "S02_idr": 0.6681, "S02_mota": 0.9869, "S02_num_switches": 275, "S02_num_misses": 0, "S02_num_false_positives": 0, "S02_num_objects": 20956, "S02_FR": 0.9724, "S02_MER": 0.6934, "S02_pair_precision": 0.3066, "S02_pair_recall": 0.0842, "S02_edges_kept": 5754, "S02_components": 1, "S02_max_comp_size": 450, "S05_tau": 0.3, "S05_theta": 0.832, "S05_tune_idf1": 0.6981, "S05_tuned_on": "S02", "S05_best_epoch": 90, "S05_idf1": 0.4729, "S05_idp": 0.4729, "S05_idr": 0.4729, "S05_mota": 0.9921, "S05_num_switches": 1306, "S05_num_misses": 0, "S05_num_false_positives": 0, "S05_num_objects": 164471, "S05_FR": 0.9852, "S05_MER": 0.474, "S05_pair_precision": 0.526, "S05_pair_recall": 0.0825, "S05_edges_kept": 25344, "S05_components": 1, "S05_max_comp_size": 1779, "tune_idf1": 0.5948, "best_epoch": "30/90", "OVERALL_idf1": 0.4949, "OVERALL_idp": 0.4949, "OVERALL_idr": 0.4949, "OVERALL_num_switches": 1581, "OVERALL_num_objects": 185427, "OVERALL_mota": 0.9915, "minutes": 4.3558}
+  [assoc attn/tgat seed1] epoch 10 loss 1.0372 val 0.4870
+  [assoc attn/tgat seed1] epoch 20 loss 0.9721 val 0.4788
+  [assoc attn/tgat seed1] epoch 30 loss 0.9349 val 0.4865
+  [assoc attn/tgat seed1] epoch 40 loss 0.8849 val 0.4808
+  [assoc attn/tgat seed1] epoch 50 loss 0.8414 val 0.4776
+  [assoc attn/tgat seed1] epoch 60 loss 0.7946 val 0.4657
+  [assoc attn/tgat seed1] epoch 70 loss 0.7592 val 0.4634
+  [assoc attn/tgat seed1] epoch 80 loss 0.7476 val 0.4660
+  [assoc attn/tgat seed1] epoch 90 loss 0.7380 val 0.4678
+  [assoc attn/tgat seed1] epoch 100 loss 0.7364 val 0.4694
+  [assoc attn/tgat seed1] kept epoch 10 (S01 IDF1 0.4870)
+  [assoc attn/tgat seed1] epoch 10 loss 1.0373 val 0.6885
+  [assoc attn/tgat seed1] epoch 20 loss 0.9962 val 0.6895
+  [assoc attn/tgat seed1] epoch 30 loss 0.9469 val 0.6878
+  [assoc attn/tgat seed1] epoch 40 loss 0.9015 val 0.6950
+  [assoc attn/tgat seed1] epoch 50 loss 0.8492 val 0.6939
+  [assoc attn/tgat seed1] epoch 60 loss 0.8116 val 0.6978
+  [assoc attn/tgat seed1] epoch 70 loss 0.7800 val 0.7031
+  [assoc attn/tgat seed1] epoch 80 loss 0.7604 val 0.7019
+  [assoc attn/tgat seed1] epoch 90 loss 0.7503 val 0.6959
+  [assoc attn/tgat seed1] epoch 100 loss 0.7512 val 0.6945
+  [assoc attn/tgat seed1] kept epoch 70 (S01 IDF1 0.7031)
+{"variant": "tgat_attn_nomask", "seed": 1, "S02_tau": 0.5, "S02_theta": 0.832, "S02_tune_idf1": 0.4876, "S02_tuned_on": "S05", "S02_best_epoch": 10, "S02_idf1": 0.6828, "S02_idp": 0.6828, "S02_idr": 0.6828, "S02_mota": 0.9884, "S02_num_switches": 243, "S02_num_misses": 0, "S02_num_false_positives": 0, "S02_num_objects": 20956, "S02_FR": 0.9241, "S02_MER": 0.7287, "S02_pair_precision": 0.2713, "S02_pair_recall": 0.1784, "S02_edges_kept": 2638, "S02_components": 3, "S02_max_comp_size": 448, "S05_tau": 0.5, "S05_theta": 0.8022, "S05_tune_idf1": 0.7055, "S05_tuned_on": "S02", "S05_best_epoch": 70, "S05_idf1": 0.4553, "S05_idp": 0.4553, "S05_idr": 0.4553, "S05_mota": 0.992, "S05_num_switches": 1316, "S05_num_misses": 0, "S05_num_false_positives": 0, "S05_num_objects": 164471, "S05_FR": 0.9852, "S05_MER": 0.4756, "S05_pair_precision": 0.5244, "S05_pair_recall": 0.0765, "S05_edges_kept": 21532, "S05_components": 4, "S05_max_comp_size": 1775, "tune_idf1": 0.5965, "best_epoch": "10/70", "OVERALL_idf1": 0.481, "OVERALL_idp": 0.481, "OVERALL_idr": 0.481, "OVERALL_num_switches": 1559, "OVERALL_num_objects": 185427, "OVERALL_mota": 0.9916, "minutes": 4.5534}
+  [assoc attn/tgat seed2] epoch 10 loss 1.0397 val 0.4875
+  [assoc attn/tgat seed2] epoch 20 loss 1.0102 val 0.4888
+  [assoc attn/tgat seed2] epoch 30 loss 0.9988 val 0.4861
+  [assoc attn/tgat seed2] epoch 40 loss 0.9190 val 0.4868
+  [assoc attn/tgat seed2] epoch 50 loss 0.8749 val 0.4857
+  [assoc attn/tgat seed2] epoch 60 loss 0.8283 val 0.4888
+  [assoc attn/tgat seed2] epoch 70 loss 0.7982 val 0.4880
+  [assoc attn/tgat seed2] epoch 80 loss 0.7874 val 0.4833
+  [assoc attn/tgat seed2] epoch 90 loss 0.7694 val 0.4834
+  [assoc attn/tgat seed2] epoch 100 loss 0.7714 val 0.4802
+  [assoc attn/tgat seed2] kept epoch 20 (S01 IDF1 0.4888)
+  [assoc attn/tgat seed2] epoch 10 loss 1.0398 val 0.6877
+  [assoc attn/tgat seed2] epoch 20 loss 1.0101 val 0.6870
+  [assoc attn/tgat seed2] epoch 30 loss 0.9688 val 0.6858
+  [assoc attn/tgat seed2] epoch 40 loss 0.9369 val 0.6907
+  [assoc attn/tgat seed2] epoch 50 loss 0.8631 val 0.6941
+  [assoc attn/tgat seed2] epoch 60 loss 0.8240 val 0.6914
+  [assoc attn/tgat seed2] epoch 70 loss 0.7813 val 0.7041
+  [assoc attn/tgat seed2] epoch 80 loss 0.7566 val 0.6855
+  [assoc attn/tgat seed2] epoch 90 loss 0.7465 val 0.7028
+  [assoc attn/tgat seed2] epoch 100 loss 0.7477 val 0.6991
+  [assoc attn/tgat seed2] kept epoch 70 (S01 IDF1 0.7041)
+{"variant": "tgat_attn_nomask", "seed": 2, "S02_tau": 0.3, "S02_theta": 0.8581, "S02_tune_idf1": 0.4893, "S02_tuned_on": "S05", "S02_best_epoch": 20, "S02_idf1": 0.6517, "S02_idp": 0.6517, "S02_idr": 0.6517, "S02_mota": 0.9879, "S02_num_switches": 254, "S02_num_misses": 0, "S02_num_false_positives": 0, "S02_num_objects": 20956, "S02_FR": 0.9517, "S02_MER": 0.7131, "S02_pair_precision": 0.2869, "S02_pair_recall": 0.1443, "S02_edges_kept": 5526, "S02_components": 1, "S02_max_comp_size": 450, "S05_tau": 0.3, "S05_theta": 0.8022, "S05_tune_idf1": 0.7094, "S05_tuned_on": "S02", "S05_best_epoch": 70, "S05_idf1": 0.471, "S05_idp": 0.471, "S05_idr": 0.471, "S05_mota": 0.9921, "S05_num_switches": 1292, "S05_num_misses": 0, "S05_num_false_positives": 0, "S05_num_objects": 164471, "S05_FR": 0.9881, "S05_MER": 0.4727, "S05_pair_precision": 0.5273, "S05_pair_recall": 0.0984, "S05_edges_kept": 25344, "S05_components": 1, "S05_max_comp_size": 1779, "tune_idf1": 0.5994, "best_epoch": "20/70", "OVERALL_idf1": 0.4915, "OVERALL_idp": 0.4915, "OVERALL_idr": 0.4915, "OVERALL_num_switches": 1546, "OVERALL_num_objects": 185427, "OVERALL_mota": 0.9917, "minutes": 4.6673}
+tgat_attn_nomask seeds [0, 1, 2]: 13.6 min
+  [assoc attn/tgat seed0] epoch 10 loss 0.8076 val 0.4559
+  [assoc attn/tgat seed0] epoch 20 loss 0.8005 val 0.4579
+  [assoc attn/tgat seed0] epoch 30 loss 0.7915 val 0.4564
+  [assoc attn/tgat seed0] epoch 40 loss 0.7803 val 0.4572
+  [assoc attn/tgat seed0] epoch 50 loss 0.7645 val 0.4570
+  [assoc attn/tgat seed0] epoch 60 loss 0.7582 val 0.4561
+  [assoc attn/tgat seed0] epoch 70 loss 0.7344 val 0.4520
+  [assoc attn/tgat seed0] epoch 80 loss 0.7091 val 0.4502
+  [assoc attn/tgat seed0] epoch 90 loss 0.7067 val 0.4508
+  [assoc attn/tgat seed0] epoch 100 loss 0.7047 val 0.4538
+  [assoc attn/tgat seed0] kept epoch 20 (S01 IDF1 0.4579)
+  [assoc attn/tgat seed0] epoch 10 loss 0.8077 val 0.6960
+  [assoc attn/tgat seed0] epoch 20 loss 0.8011 val 0.7034
+  [assoc attn/tgat seed0] epoch 30 loss 0.7907 val 0.6987
+  [assoc attn/tgat seed0] epoch 40 loss 0.7944 val 0.6967
+  [assoc attn/tgat seed0] epoch 50 loss 0.7789 val 0.6999
+  [assoc attn/tgat seed0] epoch 60 loss 0.7729 val 0.6998
+  [assoc attn/tgat seed0] epoch 70 loss 0.7643 val 0.6983
+  [assoc attn/tgat seed0] epoch 80 loss 0.7433 val 0.6981
+  [assoc attn/tgat seed0] epoch 90 loss 0.7444 val 0.6973
+  [assoc attn/tgat seed0] epoch 100 loss 0.7426 val 0.6998
+  [assoc attn/tgat seed0] kept epoch 20 (S01 IDF1 0.7034)
+{"variant": "tgat_attn_cc", "seed": 0, "S02_tau": 0.6, "S02_theta": 0.31, "S02_tune_idf1": 0.4585, "S02_tuned_on": "S05", "S02_best_epoch": 20, "S02_idf1": 0.6736, "S02_idp": 0.6736, "S02_idr": 0.6736, "S02_mota": 0.9906, "S02_num_switches": 198, "S02_num_misses": 0, "S02_num_false_positives": 0, "S02_num_objects": 20956, "S02_FR": 0.8345, "S02_MER": 0.6704, "S02_pair_precision": 0.3296, "S02_pair_recall": 0.2966, "S02_edges_kept": 508, "S02_components": 128, "S02_max_comp_size": 116, "S05_tau": 0.2, "S05_theta": 0.9309, "S05_tune_idf1": 0.7078, "S05_tuned_on": "S02", "S05_best_epoch": 20, "S05_idf1": 0.448, "S05_idp": 0.448, "S05_idr": 0.448, "S05_mota": 0.9921, "S05_num_switches": 1298, "S05_num_misses": 0, "S05_num_false_positives": 0, "S05_num_objects": 164471, "S05_FR": 0.9822, "S05_MER": 0.5176, "S05_pair_precision": 0.4824, "S05_pair_recall": 0.0626, "S05_edges_kept": 24225, "S05_components": 1, "S05_max_comp_size": 1779, "tune_idf1": 0.5831, "best_epoch": "20/20", "OVERALL_idf1": 0.4735, "OVERALL_idp": 0.4735, "OVERALL_idr": 0.4735, "OVERALL_num_switches": 1496, "OVERALL_num_objects": 185427, "OVERALL_mota": 0.9919, "minutes": 4.1341}
+  [assoc attn/tgat seed1] epoch 10 loss 0.8056 val 0.4560
+  [assoc attn/tgat seed1] epoch 20 loss 0.7998 val 0.4577
+  [assoc attn/tgat seed1] epoch 30 loss 0.7899 val 0.4596
+  [assoc attn/tgat seed1] epoch 40 loss 0.7822 val 0.4570
+  [assoc attn/tgat seed1] epoch 50 loss 0.7916 val 0.4589
+  [assoc attn/tgat seed1] epoch 60 loss 0.7721 val 0.4563
+  [assoc attn/tgat seed1] epoch 70 loss 0.7656 val 0.4575
+  [assoc attn/tgat seed1] epoch 80 loss 0.7512 val 0.4555
+  [assoc attn/tgat seed1] epoch 90 loss 0.7392 val 0.4558
+  [assoc attn/tgat seed1] epoch 100 loss 0.7413 val 0.4549
+  [assoc attn/tgat seed1] kept epoch 30 (S01 IDF1 0.4596)
+  [assoc attn/tgat seed1] epoch 10 loss 0.8056 val 0.6955
+  [assoc attn/tgat seed1] epoch 20 loss 0.8004 val 0.6966
+  [assoc attn/tgat seed1] epoch 30 loss 0.8055 val 0.6965
+  [assoc attn/tgat seed1] epoch 40 loss 0.7940 val 0.6993
+  [assoc attn/tgat seed1] epoch 50 loss 0.7758 val 0.7013
+  [assoc attn/tgat seed1] epoch 60 loss 0.7689 val 0.6991
+  [assoc attn/tgat seed1] epoch 70 loss 0.7536 val 0.6997
+  [assoc attn/tgat seed1] epoch 80 loss 0.7394 val 0.7003
+  [assoc attn/tgat seed1] epoch 90 loss 0.7284 val 0.6980
+  [assoc attn/tgat seed1] epoch 100 loss 0.7214 val 0.6978
+  [assoc attn/tgat seed1] kept epoch 50 (S01 IDF1 0.7013)
+{"variant": "tgat_attn_cc", "seed": 1, "S02_tau": 0.6, "S02_theta": 0.31, "S02_tune_idf1": 0.4608, "S02_tuned_on": "S05", "S02_best_epoch": 30, "S02_idf1": 0.6705, "S02_idp": 0.6705, "S02_idr": 0.6705, "S02_mota": 0.9904, "S02_num_switches": 201, "S02_num_misses": 0, "S02_num_false_positives": 0, "S02_num_objects": 20956, "S02_FR": 0.8414, "S02_MER": 0.672, "S02_pair_precision": 0.328, "S02_pair_recall": 0.2866, "S02_edges_kept": 508, "S02_components": 128, "S02_max_comp_size": 116, "S05_tau": 0.5, "S05_theta": 0.9168, "S05_tune_idf1": 0.7086, "S05_tuned_on": "S02", "S05_best_epoch": 50, "S05_idf1": 0.4453, "S05_idp": 0.4453, "S05_idr": 0.4453, "S05_mota": 0.9923, "S05_num_switches": 1268, "S05_num_misses": 0, "S05_num_false_positives": 0, "S05_num_objects": 164471, "S05_FR": 0.9763, "S05_MER": 0.5138, "S05_pair_precision": 0.4862, "S05_pair_recall": 0.0686, "S05_edges_kept": 10507, "S05_components": 48, "S05_max_comp_size": 1724, "tune_idf1": 0.5847, "best_epoch": "30/50", "OVERALL_idf1": 0.4708, "OVERALL_idp": 0.4708, "OVERALL_idr": 0.4708, "OVERALL_num_switches": 1469, "OVERALL_num_objects": 185427, "OVERALL_mota": 0.9921, "minutes": 4.1366}
+  [assoc attn/tgat seed2] epoch 10 loss 0.8038 val 0.4565
+  [assoc attn/tgat seed2] epoch 20 loss 0.7971 val 0.4584
+  [assoc attn/tgat seed2] epoch 30 loss 0.8025 val 0.4581
+  [assoc attn/tgat seed2] epoch 40 loss 0.7819 val 0.4573
+  [assoc attn/tgat seed2] epoch 50 loss 0.7801 val 0.4536
+  [assoc attn/tgat seed2] epoch 60 loss 0.7513 val 0.4538
+  [assoc attn/tgat seed2] epoch 70 loss 0.7205 val 0.4529
+  [assoc attn/tgat seed2] epoch 80 loss 0.7175 val 0.4490
+  [assoc attn/tgat seed2] epoch 90 loss 0.7080 val 0.4450
+  [assoc attn/tgat seed2] epoch 100 loss 0.7024 val 0.4474
+  [assoc attn/tgat seed2] kept epoch 20 (S01 IDF1 0.4584)
+  [assoc attn/tgat seed2] epoch 10 loss 0.8039 val 0.6957
+  [assoc attn/tgat seed2] epoch 20 loss 0.7970 val 0.6971
+  [assoc attn/tgat seed2] epoch 30 loss 0.7915 val 0.7017
+  [assoc attn/tgat seed2] epoch 40 loss 0.7833 val 0.7019
+  [assoc attn/tgat seed2] epoch 50 loss 0.7547 val 0.7003
+  [assoc attn/tgat seed2] epoch 60 loss 0.7440 val 0.7020
+  [assoc attn/tgat seed2] epoch 70 loss 0.7225 val 0.7008
+  [assoc attn/tgat seed2] epoch 80 loss 0.7214 val 0.7019
+  [assoc attn/tgat seed2] epoch 90 loss 0.7144 val 0.6969
+  [assoc attn/tgat seed2] epoch 100 loss 0.7128 val 0.6964
+  [assoc attn/tgat seed2] kept epoch 60 (S01 IDF1 0.7020)
+{"variant": "tgat_attn_cc", "seed": 2, "S02_tau": 0.4, "S02_theta": 0.8022, "S02_tune_idf1": 0.4586, "S02_tuned_on": "S05", "S02_best_epoch": 20, "S02_idf1": 0.6752, "S02_idp": 0.6752, "S02_idr": 0.6752, "S02_mota": 0.9904, "S02_num_switches": 201, "S02_num_misses": 0, "S02_num_false_positives": 0, "S02_num_objects": 20956, "S02_FR": 0.8759, "S02_MER": 0.6266, "S02_pair_precision": 0.3734, "S02_pair_recall": 0.2866, "S02_edges_kept": 2191, "S02_components": 2, "S02_max_comp_size": 446, "S05_tau": 0.6, "S05_theta": 0.9168, "S05_tune_idf1": 0.7045, "S05_tuned_on": "S02", "S05_best_epoch": 60, "S05_idf1": 0.4485, "S05_idp": 0.4485, "S05_idr": 0.4485, "S05_mota": 0.9923, "S05_num_switches": 1274, "S05_num_misses": 0, "S05_num_false_positives": 0, "S05_num_objects": 164471, "S05_FR": 0.9822, "S05_MER": 0.5246, "S05_pair_precision": 0.4754, "S05_pair_recall": 0.0655, "S05_edges_kept": 3956, "S05_components": 428, "S05_max_comp_size": 1191, "tune_idf1": 0.5816, "best_epoch": "20/60", "OVERALL_idf1": 0.4741, "OVERALL_idp": 0.4741, "OVERALL_idr": 0.4741, "OVERALL_num_switches": 1475, "OVERALL_num_objects": 185427, "OVERALL_mota": 0.992, "minutes": 4.1286}
+tgat_attn_cc seeds [0, 1, 2]: 12.4 min
+  [assoc attn/tgat seed0] epoch 10 loss 0.8077 val 0.4586
+  [assoc attn/tgat seed0] epoch 20 loss 0.7997 val 0.4552
+  [assoc attn/tgat seed0] epoch 30 loss 0.7930 val 0.4525
+  [assoc attn/tgat seed0] epoch 40 loss 0.7871 val 0.4503
+  [assoc attn/tgat seed0] epoch 50 loss 0.7672 val 0.4520
+  [assoc attn/tgat seed0] epoch 60 loss 0.7483 val 0.4429
+  [assoc attn/tgat seed0] epoch 70 loss 0.7563 val 0.4484
+  [assoc attn/tgat seed0] epoch 80 loss 0.7317 val 0.4397
+  [assoc attn/tgat seed0] epoch 90 loss 0.7301 val 0.4331
+  [assoc attn/tgat seed0] epoch 100 loss 0.7235 val 0.4360
+  [assoc attn/tgat seed0] kept epoch 10 (S01 IDF1 0.4586)
+  [assoc attn/tgat seed0] epoch 10 loss 0.8077 val 0.6972
+  [assoc attn/tgat seed0] epoch 20 loss 0.7992 val 0.6995
+  [assoc attn/tgat seed0] epoch 30 loss 0.7957 val 0.6988
+  [assoc attn/tgat seed0] epoch 40 loss 0.7985 val 0.6965
+  [assoc attn/tgat seed0] epoch 50 loss 0.7730 val 0.6964
+  [assoc attn/tgat seed0] epoch 60 loss 0.7666 val 0.6936
+  [assoc attn/tgat seed0] epoch 70 loss 0.7523 val 0.6953
+  [assoc attn/tgat seed0] epoch 80 loss 0.7206 val 0.6981
+  [assoc attn/tgat seed0] epoch 90 loss 0.7198 val 0.6956
+  [assoc attn/tgat seed0] epoch 100 loss 0.7188 val 0.6959
+  [assoc attn/tgat seed0] kept epoch 20 (S01 IDF1 0.6995)
+{"variant": "tgat_attn_single", "seed": 0, "S02_tau": 0.4, "S02_theta": 0.9526, "S02_tune_idf1": 0.4589, "S02_tuned_on": "S05", "S02_best_epoch": 10, "S02_idf1": 0.6815, "S02_idp": 0.6815, "S02_idr": 0.6815, "S02_mota": 0.9886, "S02_num_switches": 239, "S02_num_misses": 0, "S02_num_false_positives": 0, "S02_num_objects": 20956, "S02_FR": 0.9103, "S02_MER": 0.7199, "S02_pair_precision": 0.2801, "S02_pair_recall": 0.1864, "S02_edges_kept": 2191, "S02_components": 2, "S02_max_comp_size": 446, "S05_tau": 0.3, "S05_theta": 0.9677, "S05_tune_idf1": 0.7053, "S05_tuned_on": "S02", "S05_best_epoch": 20, "S05_idf1": 0.4536, "S05_idp": 0.4536, "S05_idr": 0.4536, "S05_mota": 0.9922, "S05_num_switches": 1285, "S05_num_misses": 0, "S05_num_false_positives": 0, "S05_num_objects": 164471, "S05_FR": 0.9703, "S05_MER": 0.7515, "S05_pair_precision": 0.2485, "S05_pair_recall": 0.0973, "S05_edges_kept": 23269, "S05_components": 1, "S05_max_comp_size": 1779, "tune_idf1": 0.5821, "best_epoch": "10/20", "OVERALL_idf1": 0.4793, "OVERALL_idp": 0.4793, "OVERALL_idr": 0.4793, "OVERALL_num_switches": 1524, "OVERALL_num_objects": 185427, "OVERALL_mota": 0.9918, "minutes": 3.647}
+  [assoc attn/tgat seed1] epoch 10 loss 0.8056 val 0.4585
+  [assoc attn/tgat seed1] epoch 20 loss 0.8002 val 0.4581
+  [assoc attn/tgat seed1] epoch 30 loss 0.8020 val 0.4542
+  [assoc attn/tgat seed1] epoch 40 loss 0.7864 val 0.4568
+  [assoc attn/tgat seed1] epoch 50 loss 0.7807 val 0.4538
+  [assoc attn/tgat seed1] epoch 60 loss 0.7580 val 0.4444
+  [assoc attn/tgat seed1] epoch 70 loss 0.7553 val 0.4430
+  [assoc attn/tgat seed1] epoch 80 loss 0.7346 val 0.4358
+  [assoc attn/tgat seed1] epoch 90 loss 0.7323 val 0.4323
+  [assoc attn/tgat seed1] epoch 100 loss 0.7194 val 0.4344
+  [assoc attn/tgat seed1] kept epoch 10 (S01 IDF1 0.4585)
+  [assoc attn/tgat seed1] epoch 10 loss 0.8056 val 0.6943
+  [assoc attn/tgat seed1] epoch 20 loss 0.7997 val 0.6956
+  [assoc attn/tgat seed1] epoch 30 loss 0.7914 val 0.6935
+  [assoc attn/tgat seed1] epoch 40 loss 0.7760 val 0.6961
+  [assoc attn/tgat seed1] epoch 50 loss 0.8129 val 0.6950
+  [assoc attn/tgat seed1] epoch 60 loss 0.7716 val 0.6931
+  [assoc attn/tgat seed1] epoch 70 loss 0.7527 val 0.6942
+  [assoc attn/tgat seed1] epoch 80 loss 0.7399 val 0.6913
+  [assoc attn/tgat seed1] epoch 90 loss 0.7340 val 0.6891
+  [assoc attn/tgat seed1] epoch 100 loss 0.7369 val 0.6912
+  [assoc attn/tgat seed1] kept epoch 40 (S01 IDF1 0.6961)
+{"variant": "tgat_attn_single", "seed": 1, "S02_tau": 0.1, "S02_theta": 0.9526, "S02_tune_idf1": 0.4585, "S02_tuned_on": "S05", "S02_best_epoch": 10, "S02_idf1": 0.6831, "S02_idp": 0.6831, "S02_idr": 0.6831, "S02_mota": 0.9885, "S02_num_switches": 240, "S02_num_misses": 0, "S02_num_false_positives": 0, "S02_num_objects": 20956, "S02_FR": 0.9103, "S02_MER": 0.7134, "S02_pair_precision": 0.2866, "S02_pair_recall": 0.1844, "S02_edges_kept": 5507, "S02_components": 1, "S02_max_comp_size": 450, "S05_tau": 0.7, "S05_theta": 0.9677, "S05_tune_idf1": 0.7005, "S05_tuned_on": "S02", "S05_best_epoch": 40, "S05_idf1": 0.4522, "S05_idp": 0.4522, "S05_idr": 0.4522, "S05_mota": 0.9922, "S05_num_switches": 1287, "S05_num_misses": 0, "S05_num_false_positives": 0, "S05_num_objects": 164471, "S05_FR": 0.9703, "S05_MER": 0.7562, "S05_pair_precision": 0.2438, "S05_pair_recall": 0.0959, "S05_edges_kept": 1132, "S05_components": 1108, "S05_max_comp_size": 353, "tune_idf1": 0.5795, "best_epoch": "10/40", "OVERALL_idf1": 0.4783, "OVERALL_idp": 0.4783, "OVERALL_idr": 0.4783, "OVERALL_num_switches": 1527, "OVERALL_num_objects": 185427, "OVERALL_mota": 0.9918, "minutes": 3.7607}
+  [assoc attn/tgat seed2] epoch 10 loss 0.8039 val 0.4585
+  [assoc attn/tgat seed2] epoch 20 loss 0.7973 val 0.4565
+  [assoc attn/tgat seed2] epoch 30 loss 0.7895 val 0.4509
+  [assoc attn/tgat seed2] epoch 40 loss 0.7764 val 0.4430
+  [assoc attn/tgat seed2] epoch 50 loss 0.7583 val 0.4415
+  [assoc attn/tgat seed2] epoch 60 loss 0.7574 val 0.4407
+  [assoc attn/tgat seed2] epoch 70 loss 0.7297 val 0.4336
+  [assoc attn/tgat seed2] epoch 80 loss 0.7361 val 0.4418
+  [assoc attn/tgat seed2] epoch 90 loss 0.7237 val 0.4394
+  [assoc attn/tgat seed2] epoch 100 loss 0.7187 val 0.4404
+  [assoc attn/tgat seed2] kept epoch 10 (S01 IDF1 0.4585)
+  [assoc attn/tgat seed2] epoch 10 loss 0.8039 val 0.6967
+  [assoc attn/tgat seed2] epoch 20 loss 0.7969 val 0.6977
+  [assoc attn/tgat seed2] epoch 30 loss 0.7914 val 0.6962
+  [assoc attn/tgat seed2] epoch 40 loss 0.7756 val 0.6987
+  [assoc attn/tgat seed2] epoch 50 loss 0.7572 val 0.6982
+  [assoc attn/tgat seed2] epoch 60 loss 0.7732 val 0.6983
+  [assoc attn/tgat seed2] epoch 70 loss 0.7182 val 0.6975
+  [assoc attn/tgat seed2] epoch 80 loss 0.7217 val 0.6946
+  [assoc attn/tgat seed2] epoch 90 loss 0.7038 val 0.6953
+  [assoc attn/tgat seed2] epoch 100 loss 0.6963 val 0.6986
+  [assoc attn/tgat seed2] kept epoch 40 (S01 IDF1 0.6987)
+{"variant": "tgat_attn_single", "seed": 2, "S02_tau": 0.6, "S02_theta": 0.9526, "S02_tune_idf1": 0.4594, "S02_tuned_on": "S05", "S02_best_epoch": 10, "S02_idf1": 0.682, "S02_idp": 0.682, "S02_idr": 0.682, "S02_mota": 0.9887, "S02_num_switches": 237, "S02_num_misses": 0, "S02_num_false_positives": 0, "S02_num_objects": 20956, "S02_FR": 0.9103, "S02_MER": 0.7222, "S02_pair_precision": 0.2778, "S02_pair_recall": 0.1904, "S02_edges_kept": 508, "S02_components": 128, "S02_max_comp_size": 116, "S05_tau": 0.5, "S05_theta": 0.9734, "S05_tune_idf1": 0.7009, "S05_tuned_on": "S02", "S05_best_epoch": 40, "S05_idf1": 0.4508, "S05_idp": 0.4508, "S05_idr": 0.4508, "S05_mota": 0.9921, "S05_num_switches": 1292, "S05_num_misses": 0, "S05_num_false_positives": 0, "S05_num_objects": 164471, "S05_FR": 0.9703, "S05_MER": 0.6735, "S05_pair_precision": 0.3265, "S05_pair_recall": 0.0859, "S05_edges_kept": 10507, "S05_components": 48, "S05_max_comp_size": 1724, "tune_idf1": 0.5802, "best_epoch": "10/40", "OVERALL_idf1": 0.4769, "OVERALL_idp": 0.4769, "OVERALL_idr": 0.4769, "OVERALL_num_switches": 1529, "OVERALL_num_objects": 185427, "OVERALL_mota": 0.9918, "minutes": 3.8278}
+tgat_attn_single seeds [0, 1, 2]: 11.2 min
+stage attnabl done in 37.2 min
+
+Setting B, all seeds (mean ± std)
+                  runs     OVERALL_idf1      OVERALL_idp      OVERALL_idr     OVERALL_mota OVERALL_num_switches         S02_idf1         S05_idf1           S02_FR           S05_FR          S02_MER          S05_MER
+variant                                                                                                                                                                                                              
+cosine               1  0.4650 ± 0.0000  0.4650 ± 0.0000  0.4650 ± 0.0000  0.9917 ± 0.0000   1537.0000 ± 0.0000  0.6959 ± 0.0000  0.4355 ± 0.0000  0.8138 ± 0.0000  0.9881 ± 0.0000  0.6242 ± 0.0000  0.3840 ± 0.0000
+gat                  3  0.4627 ± 0.0005  0.4627 ± 0.0005  0.4627 ± 0.0005  0.9923 ± 0.0001  1420.0000 ± 11.2694  0.7008 ± 0.0030  0.4324 ± 0.0004  0.8414 ± 0.0239  0.9703 ± 0.0079  0.5825 ± 0.0323  0.6810 ± 0.0166
+gat_lstm             3  0.4557 ± 0.0010  0.4557 ± 0.0010  0.4557 ± 0.0010  0.9924 ± 0.0001  1405.3333 ± 11.9304  0.6912 ± 0.0034  0.4256 ± 0.0016  0.8230 ± 0.0159  0.9723 ± 0.0034  0.6279 ± 0.0334  0.6845 ± 0.0084
+gat_attn             3  0.4801 ± 0.0060  0.4801 ± 0.0060  0.4801 ± 0.0060  0.9922 ± 0.0002  1445.6667 ± 33.2616  0.6927 ± 0.0060  0.4530 ± 0.0064  0.8253 ± 0.0199  0.9792 ± 0.0103  0.6357 ± 0.0198  0.5243 ± 0.0713
+tgat                 3  0.4659 ± 0.0013  0.4659 ± 0.0013  0.4659 ± 0.0013  0.9924 ± 0.0002  1412.3333 ± 37.1663  0.7033 ± 0.0054  0.4357 ± 0.0019  0.8184 ± 0.0279  0.9703 ± 0.0107  0.5948 ± 0.0383  0.6485 ± 0.0377
+tgat_lstm            3  0.4558 ± 0.0061  0.4558 ± 0.0061  0.4558 ± 0.0061  0.9924 ± 0.0000   1414.6667 ± 6.1101  0.6933 ± 0.0080  0.4256 ± 0.0060  0.8276 ± 0.0182  0.9723 ± 0.0017  0.6225 ± 0.0334  0.6708 ± 0.0236
+tgat_attn            3  0.4835 ± 0.0007  0.4835 ± 0.0007  0.4835 ± 0.0007  0.9923 ± 0.0001  1426.6667 ± 15.5349  0.6911 ± 0.0033  0.4570 ± 0.0011  0.8207 ± 0.0119  0.9782 ± 0.0062  0.6357 ± 0.0200  0.5643 ± 0.0589
+tgat_lstm_nomask     3  0.4793 ± 0.0087  0.4793 ± 0.0087  0.4793 ± 0.0087  0.9916 ± 0.0001  1552.6667 ± 23.4592  0.6658 ± 0.0000  0.4556 ± 0.0098  0.9448 ± 0.0000  0.9812 ± 0.0045  0.7595 ± 0.0000  0.6555 ± 0.0334
+tgat_lstm_cc         3  0.4544 ± 0.0077  0.4544 ± 0.0077  0.4544 ± 0.0077  0.9924 ± 0.0000   1407.0000 ± 4.0000  0.6966 ± 0.0062  0.4236 ± 0.0080  0.8598 ± 0.0105  0.9683 ± 0.0146  0.5846 ± 0.0156  0.6881 ± 0.0351
+cosine_single        1  0.4639 ± 0.0000  0.4639 ± 0.0000  0.4639 ± 0.0000  0.9913 ± 0.0000   1615.0000 ± 0.0000  0.6864 ± 0.0000  0.4356 ± 0.0000  0.9172 ± 0.0000  0.9822 ± 0.0000  0.6911 ± 0.0000  0.6330 ± 0.0000
+tgat_lstm_single     3  0.4133 ± 0.0215  0.4133 ± 0.0215  0.4133 ± 0.0215  0.9930 ± 0.0003  1294.0000 ± 51.3907  0.7006 ± 0.0014  0.3766 ± 0.0241  0.8920 ± 0.0040  0.9347 ± 0.0264  0.6484 ± 0.0205  0.9424 ± 0.0200
+tgat_attn_nomask     3  0.4891 ± 0.0072  0.4891 ± 0.0072  0.4891 ± 0.0072  0.9916 ± 0.0001  1562.0000 ± 17.6918  0.6675 ± 0.0155  0.4664 ± 0.0096  0.9494 ± 0.0242  0.9862 ± 0.0017  0.7117 ± 0.0177  0.4741 ± 0.0014
+tgat_attn_cc         3  0.4728 ± 0.0018  0.4728 ± 0.0018  0.4728 ± 0.0018  0.9920 ± 0.0001  1480.0000 ± 14.1774  0.6731 ± 0.0024  0.4473 ± 0.0017  0.8506 ± 0.0222  0.9802 ± 0.0034  0.6563 ± 0.0257  0.5187 ± 0.0055
+tgat_attn_single     3  0.4782 ± 0.0012  0.4782 ± 0.0012  0.4782 ± 0.0012  0.9918 ± 0.0000   1526.6667 ± 2.5166  0.6822 ± 0.0008  0.4522 ± 0.0014  0.9103 ± 0.0000  0.9703 ± 0.0000  0.7185 ± 0.0046  0.7271 ± 0.0464
+stage merge done in 0.0 min
+{"variant": "cosine", "seed": 0, "S02_tau": 0.1, "S02_theta": 0.44, "S02_gamma": 0.8, "S02_minlen": 40, "S02_tune_idf1": 0.1644, "S02_FR": 1.0, "S02_MER": 0.9932, "S05_tau": 0.1, "S05_theta": 0.52, "S05_gamma": 0.0, "S05_minlen": 20, "S05_tune_idf1": 0.1774, "S05_FR": 0.9656, "S05_MER": 0.9244, "S02_idf1": 0.0417, "S02_idp": 0.0392, "S02_idr": 0.0444, "S02_mota": -1.0034, "S02_num_switches": 12.0, "S02_num_misses": 19589.0, "S02_num_false_positives": 22382.0, "S02_num_objects": 20956.0, "S02_num_predictions": 23749.0, "S05_idf1": 0.1412, "S05_idp": 0.0887, "S05_idr": 0.3465, "S05_mota": -2.4194, "S05_num_switches": 2235.0, "S05_num_misses": 41033.0, "S05_num_false_positives": 519129.0, "S05_num_objects": 164471.0, "S05_num_predictions": 642567.0, "OVERALL_idf1": 0.136, "OVERALL_idp": 0.0869, "OVERALL_idr": 0.3123, "OVERALL_mota": -2.2594, "OVERALL_num_switches": 2247.0, "OVERALL_num_misses": 60622.0, "OVERALL_num_false_positives": 541511.0, "OVERALL_num_objects": 185427.0, "OVERALL_num_predictions": 666316.0, "minutes": 1.8503}
+{"variant": "gat_attn", "seed": 0, "S02_tau": 0.1, "S02_theta": 0.9309, "S02_gamma": 0.0, "S02_minlen": 40, "S02_tune_idf1": 0.1618, "S02_FR": 1.0, "S02_MER": 0.992, "S05_tau": 0.3, "S05_theta": 0.8022, "S05_gamma": 0.0, "S05_minlen": 10, "S05_tune_idf1": 0.1874, "S05_FR": 0.9695, "S05_MER": 0.9279, "S02_idf1": 0.0634, "S02_idp": 0.0573, "S02_idr": 0.0709, "S02_mota": -1.0419, "S02_num_switches": 16.0, "S02_num_misses": 18904.0, "S02_num_false_positives": 23870.0, "S02_num_objects": 20956.0, "S02_num_predictions": 25922.0, "S05_idf1": 0.133, "S05_idp": 0.085, "S05_idr": 0.3051, "S05_mota": -2.2836, "S05_num_switches": 2082.0, "S05_num_misses": 56157.0, "S05_num_false_positives": 481825.0, "S05_num_objects": 164471.0, "S05_num_predictions": 590139.0, "OVERALL_idf1": 0.1289, "OVERALL_idp": 0.0839, "OVERALL_idr": 0.2786, "OVERALL_mota": -2.1433, "OVERALL_num_switches": 2098.0, "OVERALL_num_misses": 75061.0, "OVERALL_num_false_positives": 505695.0, "OVERALL_num_objects": 185427.0, "OVERALL_num_predictions": 616061.0, "minutes": 2.0155}
+{"variant": "gat_attn", "seed": 1, "S02_tau": 0.3, "S02_theta": 0.9526, "S02_gamma": 0.9526, "S02_minlen": 40, "S02_tune_idf1": 0.1975, "S02_FR": 1.0, "S02_MER": 0.9891, "S05_tau": 0.1, "S05_theta": 0.7311, "S05_gamma": 0.0, "S05_minlen": 10, "S05_tune_idf1": 0.179, "S05_FR": 0.9733, "S05_MER": 0.9426, "S02_idf1": 0.0805, "S02_idp": 0.0652, "S02_idr": 0.1054, "S02_mota": -1.3198, "S02_num_switches": 46.0, "S02_num_misses": 17812.0, "S02_num_false_positives": 30755.0, "S02_num_objects": 20956.0, "S02_num_predictions": 33899.0, "S05_idf1": 0.1304, "S05_idp": 0.0815, "S05_idr": 0.327, "S05_mota": -2.4847, "S05_num_switches": 2706.0, "S05_num_misses": 37319.0, "S05_num_false_positives": 533115.0, "S05_num_objects": 164471.0, "S05_num_predictions": 660267.0, "OVERALL_idf1": 0.1273, "OVERALL_idp": 0.0807, "OVERALL_idr": 0.302, "OVERALL_mota": -2.3531, "OVERALL_num_switches": 2752.0, "OVERALL_num_misses": 55131.0, "OVERALL_num_false_positives": 563870.0, "OVERALL_num_objects": 185427.0, "OVERALL_num_predictions": 694166.0, "minutes": 2.3752}
+{"variant": "gat_attn", "seed": 2, "S02_tau": 0.1, "S02_theta": 0.9309, "S02_gamma": 0.0, "S02_minlen": 40, "S02_tune_idf1": 0.1618, "S02_FR": 1.0, "S02_MER": 0.992, "S05_tau": 0.1, "S05_theta": 0.8581, "S05_gamma": 0.0, "S05_minlen": 10, "S05_tune_idf1": 0.1806, "S05_FR": 0.9809, "S05_MER": 0.9281, "S02_idf1": 0.0634, "S02_idp": 0.0573, "S02_idr": 0.0709, "S02_mota": -1.0419, "S02_num_switches": 16.0, "S02_num_misses": 18904.0, "S02_num_false_positives": 23870.0, "S02_num_objects": 20956.0, "S02_num_predictions": 25922.0, "S05_idf1": 0.128, "S05_idp": 0.0815, "S05_idr": 0.2984, "S05_mota": -2.3776, "S05_num_switches": 2014.0, "S05_num_misses": 57799.0, "S05_num_false_positives": 495708.0, "S05_num_objects": 164471.0, "S05_num_predictions": 602380.0, "OVERALL_idf1": 0.1243, "OVERALL_idp": 0.0805, "OVERALL_idr": 0.2727, "OVERALL_mota": -2.2267, "OVERALL_num_switches": 2030.0, "OVERALL_num_misses": 76703.0, "OVERALL_num_false_positives": 519578.0, "OVERALL_num_objects": 185427.0, "OVERALL_num_predictions": 628302.0, "minutes": 2.0084}
+{"variant": "tgat_lstm", "seed": 0, "S02_tau": 0.3, "S02_theta": 0.1978, "S02_gamma": 0.9526, "S02_minlen": 40, "S02_tune_idf1": 0.1426, "S02_FR": 1.0, "S02_MER": 0.9957, "S05_tau": 0.3, "S05_theta": 0.5498, "S05_gamma": 0.982, "S05_minlen": 10, "S05_tune_idf1": 0.1869, "S05_FR": 0.9656, "S05_MER": 0.9533, "S02_idf1": 0.0584, "S02_idp": 0.051, "S02_idr": 0.0685, "S02_mota": -1.1408, "S02_num_switches": 21.0, "S02_num_misses": 18822.0, "S02_num_false_positives": 26020.0, "S02_num_objects": 20956.0, "S02_num_predictions": 28154.0, "S05_idf1": 0.1368, "S05_idp": 0.0937, "S05_idr": 0.2538, "S05_mota": -1.6701, "S05_num_switches": 1520.0, "S05_num_misses": 78274.0, "S05_num_false_positives": 359354.0, "S05_num_objects": 164471.0, "S05_num_predictions": 445551.0, "OVERALL_idf1": 0.131, "OVERALL_idp": 0.0911, "OVERALL_idr": 0.2328, "OVERALL_mota": -1.6103, "OVERALL_num_switches": 1541.0, "OVERALL_num_misses": 97096.0, "OVERALL_num_false_positives": 385374.0, "OVERALL_num_objects": 185427.0, "OVERALL_num_predictions": 473705.0, "minutes": 2.1127}
+{"variant": "tgat_lstm", "seed": 1, "S02_tau": 0.1, "S02_theta": 0.9309, "S02_gamma": 0.0, "S02_minlen": 40, "S02_tune_idf1": 0.1618, "S02_FR": 1.0, "S02_MER": 0.992, "S05_tau": 0.3, "S05_theta": 0.4502, "S05_gamma": 0.0, "S05_minlen": 20, "S05_tune_idf1": 0.179, "S05_FR": 0.9542, "S05_MER": 0.9547, "S02_idf1": 0.0634, "S02_idp": 0.0573, "S02_idr": 0.0709, "S02_mota": -1.0419, "S02_num_switches": 16.0, "S02_num_misses": 18904.0, "S02_num_false_positives": 23870.0, "S02_num_objects": 20956.0, "S02_num_predictions": 25922.0, "S05_idf1": 0.1337, "S05_idp": 0.0833, "S05_idr": 0.3385, "S05_mota": -2.5632, "S05_num_switches": 2329.0, "S05_num_misses": 39885.0, "S05_num_false_positives": 543826.0, "S05_num_objects": 164471.0, "S05_num_predictions": 668412.0, "OVERALL_idf1": 0.1299, "OVERALL_idp": 0.0823, "OVERALL_idr": 0.3082, "OVERALL_mota": -2.3913, "OVERALL_num_switches": 2345.0, "OVERALL_num_misses": 58789.0, "OVERALL_num_false_positives": 567696.0, "OVERALL_num_objects": 185427.0, "OVERALL_num_predictions": 694334.0, "minutes": 2.0496}
+{"variant": "tgat_lstm", "seed": 2, "S02_tau": 0.3, "S02_theta": 0.9002, "S02_gamma": 0.8808, "S02_minlen": 40, "S02_tune_idf1": 0.1454, "S02_FR": 1.0, "S02_MER": 0.9889, "S05_tau": 0.1, "S05_theta": 0.99, "S05_gamma": 0.0, "S05_minlen": 10, "S05_tune_idf1": 0.1993, "S05_FR": 0.9733, "S05_MER": 0.9396, "S02_idf1": 0.0697, "S02_idp": 0.054, "S02_idr": 0.0983, "S02_mota": -1.5438, "S02_num_switches": 37.0, "S02_num_misses": 18030.0, "S02_num_false_positives": 35241.0, "S02_num_objects": 20956.0, "S02_num_predictions": 38167.0, "S05_idf1": 0.1372, "S05_idp": 0.0932, "S05_idr": 0.2596, "S05_mota": -1.6916, "S05_num_switches": 1772.0, "S05_num_misses": 73689.0, "S05_num_false_positives": 367232.0, "S05_num_objects": 164471.0, "S05_num_predictions": 458014.0, "OVERALL_idf1": 0.1313, "OVERALL_idp": 0.0902, "OVERALL_idr": 0.2414, "OVERALL_mota": -1.6749, "OVERALL_num_switches": 1809.0, "OVERALL_num_misses": 91719.0, "OVERALL_num_false_positives": 402473.0, "OVERALL_num_objects": 185427.0, "OVERALL_num_predictions": 496181.0, "minutes": 2.285}
+{"variant": "tgat_attn", "seed": 0, "S02_tau": 0.1, "S02_theta": 0.9309, "S02_gamma": 0.0, "S02_minlen": 40, "S02_tune_idf1": 0.1618, "S02_FR": 1.0, "S02_MER": 0.992, "S05_tau": 0.3, "S05_theta": 0.6457, "S05_gamma": 0.8808, "S05_minlen": 10, "S05_tune_idf1": 0.189, "S05_FR": 0.9542, "S05_MER": 0.9379, "S02_idf1": 0.0634, "S02_idp": 0.0573, "S02_idr": 0.0709, "S02_mota": -1.0419, "S02_num_switches": 16.0, "S02_num_misses": 18904.0, "S02_num_false_positives": 23870.0, "S02_num_objects": 20956.0, "S02_num_predictions": 25922.0, "S05_idf1": 0.1341, "S05_idp": 0.0849, "S05_idr": 0.319, "S05_mota": -2.3431, "S05_num_switches": 2330.0, "S05_num_misses": 46941.0, "S05_num_false_positives": 500573.0, "S05_num_objects": 164471.0, "S05_num_predictions": 618103.0, "OVERALL_idf1": 0.1301, "OVERALL_idp": 0.0838, "OVERALL_idr": 0.2909, "OVERALL_mota": -2.1961, "OVERALL_num_switches": 2346.0, "OVERALL_num_misses": 65845.0, "OVERALL_num_false_positives": 524443.0, "OVERALL_num_objects": 185427.0, "OVERALL_num_predictions": 644025.0, "minutes": 2.0353}
+{"variant": "tgat_attn", "seed": 1, "S02_tau": 0.3, "S02_theta": 0.9526, "S02_gamma": 0.9526, "S02_minlen": 40, "S02_tune_idf1": 0.1908, "S02_FR": 1.0, "S02_MER": 0.993, "S05_tau": 0.3, "S05_theta": 0.6457, "S05_gamma": 0.8808, "S05_minlen": 10, "S05_tune_idf1": 0.1816, "S05_FR": 0.9656, "S05_MER": 0.9325, "S02_idf1": 0.0708, "S02_idp": 0.0625, "S02_idr": 0.0817, "S02_mota": -1.0834, "S02_num_switches": 28.0, "S02_num_misses": 18588.0, "S02_num_false_positives": 25043.0, "S02_num_objects": 20956.0, "S02_num_predictions": 27411.0, "S05_idf1": 0.1432, "S05_idp": 0.0925, "S05_idr": 0.3163, "S05_mota": -2.0269, "S05_num_switches": 2246.0, "S05_num_misses": 48926.0, "S05_num_false_positives": 446666.0, "S05_num_objects": 164471.0, "S05_num_predictions": 562211.0, "OVERALL_idf1": 0.1387, "OVERALL_idp": 0.0911, "OVERALL_idr": 0.2898, "OVERALL_mota": -1.9203, "OVERALL_num_switches": 2274.0, "OVERALL_num_misses": 67514.0, "OVERALL_num_false_positives": 471709.0, "OVERALL_num_objects": 185427.0, "OVERALL_num_predictions": 589622.0, "minutes": 2.1947}
+{"variant": "tgat_attn", "seed": 2, "S02_tau": 0.1, "S02_theta": 0.9309, "S02_gamma": 0.0, "S02_minlen": 40, "S02_tune_idf1": 0.1618, "S02_FR": 1.0, "S02_MER": 0.992, "S05_tau": 0.3, "S05_theta": 0.7311, "S05_gamma": 0.8808, "S05_minlen": 10, "S05_tune_idf1": 0.1917, "S05_FR": 0.9656, "S05_MER": 0.9338, "S02_idf1": 0.0634, "S02_idp": 0.0573, "S02_idr": 0.0709, "S02_mota": -1.0419, "S02_num_switches": 16.0, "S02_num_misses": 18904.0, "S02_num_false_positives": 23870.0, "S02_num_objects": 20956.0, "S02_num_predictions": 25922.0, "S05_idf1": 0.1468, "S05_idp": 0.0957, "S05_idr": 0.3146, "S05_mota": -1.9127, "S05_num_switches": 2229.0, "S05_num_misses": 50474.0, "S05_num_false_positives": 426359.0, "S05_num_objects": 164471.0, "S05_num_predictions": 540356.0, "OVERALL_idf1": 0.1416, "OVERALL_idp": 0.094, "OVERALL_idr": 0.287, "OVERALL_mota": -1.8143, "OVERALL_num_switches": 2245.0, "OVERALL_num_misses": 69378.0, "OVERALL_num_false_positives": 450229.0, "OVERALL_num_objects": 185427.0, "OVERALL_num_predictions": 566278.0, "minutes": 2.024}
+
+Setting C with confidence-gated multi-camera filter
+           runs     OVERALL_idf1      OVERALL_idp      OVERALL_idr      OVERALL_mota  OVERALL_num_switches       OVERALL_num_misses OVERALL_num_false_positives   OVERALL_num_objects    OVERALL_num_predictions         S02_idf1         S05_idf1          S02_mota          S05_mota
+variant                                                                                                                                                                                                                                                                               
+cosine        1  0.1360 ± 0.0000  0.0869 ± 0.0000  0.3123 ± 0.0000  -2.2594 ± 0.0000    2247.0000 ± 0.0000      60622.0000 ± 0.0000        541511.0000 ± 0.0000  185427.0000 ± 0.0000       666316.0000 ± 0.0000  0.0417 ± 0.0000  0.1412 ± 0.0000  -1.0034 ± 0.0000  -2.4194 ± 0.0000
+gat_attn      3  0.1268 ± 0.0024  0.0817 ± 0.0019  0.2844 ± 0.0155  -2.2410 ± 0.1056  2293.3333 ± 398.6695  68965.0000 ± 12008.6930    529714.3333 ± 30383.2453  185427.0000 ± 0.0000   646176.3333 ± 42008.5301  0.0691 ± 0.0099  0.1305 ± 0.0025  -1.1345 ± 0.1604  -2.3820 ± 0.1006
+tgat_lstm     3  0.1308 ± 0.0007  0.0879 ± 0.0048  0.2608 ± 0.0413  -1.8921 ± 0.4335  1898.3333 ± 409.3768  82534.6667 ± 20739.3478   451847.6667 ± 100691.2171  185427.0000 ± 0.0000  554740.0000 ± 121413.1635  0.0639 ± 0.0057  0.1359 ± 0.0019  -1.2422 ± 0.2659  -1.9750 ± 0.5095
+tgat_attn     3  0.1368 ± 0.0060  0.0896 ± 0.0053  0.2892 ± 0.0020  -1.9769 ± 0.1971   2288.3333 ± 52.0032   67579.0000 ± 1767.3967    482127.0000 ± 38188.0936  185427.0000 ± 0.0000   599975.0000 ± 39894.0780  0.0659 ± 0.0043  0.1414 ± 0.0066  -1.0557 ± 0.0239  -2.0943 ± 0.2229
+stage setCg done in 22.8 min
+ALL DONE - now run 05_make_report.py
+
+===== 2026-10-10 14:34 stages=['merge'] device=cuda
+
+Setting B, all seeds (mean ± std)
+                  runs     OVERALL_idf1      OVERALL_idp      OVERALL_idr     OVERALL_mota OVERALL_num_switches         S02_idf1         S05_idf1           S02_FR           S05_FR          S02_MER          S05_MER
+variant                                                                                                                                                                                                              
+cosine               1  0.4650 ± 0.0000  0.4650 ± 0.0000  0.4650 ± 0.0000  0.9917 ± 0.0000   1537.0000 ± 0.0000  0.6959 ± 0.0000  0.4355 ± 0.0000  0.8138 ± 0.0000  0.9881 ± 0.0000  0.6242 ± 0.0000  0.3840 ± 0.0000
+gat                  3  0.4627 ± 0.0005  0.4627 ± 0.0005  0.4627 ± 0.0005  0.9923 ± 0.0001  1420.0000 ± 11.2694  0.7008 ± 0.0030  0.4324 ± 0.0004  0.8414 ± 0.0239  0.9703 ± 0.0079  0.5825 ± 0.0323  0.6810 ± 0.0166
+gat_lstm             3  0.4557 ± 0.0010  0.4557 ± 0.0010  0.4557 ± 0.0010  0.9924 ± 0.0001  1405.3333 ± 11.9304  0.6912 ± 0.0034  0.4256 ± 0.0016  0.8230 ± 0.0159  0.9723 ± 0.0034  0.6279 ± 0.0334  0.6845 ± 0.0084
+gat_attn             3  0.4801 ± 0.0060  0.4801 ± 0.0060  0.4801 ± 0.0060  0.9922 ± 0.0002  1445.6667 ± 33.2616  0.6927 ± 0.0060  0.4530 ± 0.0064  0.8253 ± 0.0199  0.9792 ± 0.0103  0.6357 ± 0.0198  0.5243 ± 0.0713
+tgat                 3  0.4659 ± 0.0013  0.4659 ± 0.0013  0.4659 ± 0.0013  0.9924 ± 0.0002  1412.3333 ± 37.1663  0.7033 ± 0.0054  0.4357 ± 0.0019  0.8184 ± 0.0279  0.9703 ± 0.0107  0.5948 ± 0.0383  0.6485 ± 0.0377
+tgat_lstm            3  0.4558 ± 0.0061  0.4558 ± 0.0061  0.4558 ± 0.0061  0.9924 ± 0.0000   1414.6667 ± 6.1101  0.6933 ± 0.0080  0.4256 ± 0.0060  0.8276 ± 0.0182  0.9723 ± 0.0017  0.6225 ± 0.0334  0.6708 ± 0.0236
+tgat_attn            3  0.4835 ± 0.0007  0.4835 ± 0.0007  0.4835 ± 0.0007  0.9923 ± 0.0001  1426.6667 ± 15.5349  0.6911 ± 0.0033  0.4570 ± 0.0011  0.8207 ± 0.0119  0.9782 ± 0.0062  0.6357 ± 0.0200  0.5643 ± 0.0589
+tgat_lstm_nomask     3  0.4793 ± 0.0087  0.4793 ± 0.0087  0.4793 ± 0.0087  0.9916 ± 0.0001  1552.6667 ± 23.4592  0.6658 ± 0.0000  0.4556 ± 0.0098  0.9448 ± 0.0000  0.9812 ± 0.0045  0.7595 ± 0.0000  0.6555 ± 0.0334
+tgat_lstm_cc         3  0.4544 ± 0.0077  0.4544 ± 0.0077  0.4544 ± 0.0077  0.9924 ± 0.0000   1407.0000 ± 4.0000  0.6966 ± 0.0062  0.4236 ± 0.0080  0.8598 ± 0.0105  0.9683 ± 0.0146  0.5846 ± 0.0156  0.6881 ± 0.0351
+cosine_single        1  0.4639 ± 0.0000  0.4639 ± 0.0000  0.4639 ± 0.0000  0.9913 ± 0.0000   1615.0000 ± 0.0000  0.6864 ± 0.0000  0.4356 ± 0.0000  0.9172 ± 0.0000  0.9822 ± 0.0000  0.6911 ± 0.0000  0.6330 ± 0.0000
+tgat_lstm_single     3  0.4133 ± 0.0215  0.4133 ± 0.0215  0.4133 ± 0.0215  0.9930 ± 0.0003  1294.0000 ± 51.3907  0.7006 ± 0.0014  0.3766 ± 0.0241  0.8920 ± 0.0040  0.9347 ± 0.0264  0.6484 ± 0.0205  0.9424 ± 0.0200
+tgat_attn_nomask     3  0.4891 ± 0.0072  0.4891 ± 0.0072  0.4891 ± 0.0072  0.9916 ± 0.0001  1562.0000 ± 17.6918  0.6675 ± 0.0155  0.4664 ± 0.0096  0.9494 ± 0.0242  0.9862 ± 0.0017  0.7117 ± 0.0177  0.4741 ± 0.0014
+tgat_attn_cc         3  0.4728 ± 0.0018  0.4728 ± 0.0018  0.4728 ± 0.0018  0.9920 ± 0.0001  1480.0000 ± 14.1774  0.6731 ± 0.0024  0.4473 ± 0.0017  0.8506 ± 0.0222  0.9802 ± 0.0034  0.6563 ± 0.0257  0.5187 ± 0.0055
+tgat_attn_single     3  0.4782 ± 0.0012  0.4782 ± 0.0012  0.4782 ± 0.0012  0.9918 ± 0.0000   1526.6667 ± 2.5166  0.6822 ± 0.0008  0.4522 ± 0.0014  0.9103 ± 0.0000  0.9703 ± 0.0000  0.7185 ± 0.0046  0.7271 ± 0.0464
+stage merge done in 0.0 min
+ALL DONE - now run 05_make_report.py

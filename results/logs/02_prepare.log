@@ -1,0 +1,75 @@
+Old V15 protocol: prediction coverage (= upper bound of MOTA)
+  scene  gt_boxes  boxes_with_prediction  coverage  MOTA_upper_bound_if_all_predictions_correct
+    S02     20956                   6182  0.294999                                     0.294999
+    S05    164471                  26923  0.163695                                     0.163695
+S02+S05    185427                  33105  0.178534                                     0.178534
+[crops] S01/c001: total so far 660
+[crops] S01/c002: total so far 1929
+[crops] S01/c003: total so far 3262
+[crops] S01/c004: total so far 4468
+[crops] S01/c005: total so far 6911
+[crops] S03/c010: total so far 7330
+[crops] S03/c011: total so far 7566
+[crops] S03/c012: total so far 7980
+[crops] S03/c013: total so far 8183
+[crops] S03/c014: total so far 8896
+[crops] S03/c015: total so far 8900
+[crops] S04/c016: total so far 9043
+[crops] S04/c017: total so far 9114
+[crops] S04/c018: total so far 9182
+[crops] S04/c019: total so far 9264
+[crops] S04/c020: total so far 9356
+[crops] S04/c021: total so far 9446
+[crops] S04/c022: total so far 9569
+[crops] S04/c023: total so far 9697
+[crops] S04/c024: total so far 9706
+[crops] S04/c025: total so far 9828
+[crops] S04/c026: total so far 10206
+[crops] S04/c027: total so far 10415
+[crops] S04/c028: total so far 10448
+[crops] S04/c029: total so far 10629
+[crops] S04/c030: total so far 10942
+[crops] S04/c031: total so far 10983
+[crops] S04/c032: total so far 11275
+[crops] S04/c033: total so far 11777
+[crops] S04/c034: total so far 12288
+[crops] S04/c035: total so far 12431
+[crops] S04/c036: total so far 12842
+[crops] S04/c037: total so far 13073
+[crops] S04/c038: total so far 13281
+[crops] S04/c039: total so far 13366
+[crops] S04/c040: total so far 13583
+crops written: 13583 in 5.3 min
+TONIGHT PREPARATION DONE
+Old V15 protocol: prediction coverage (= upper bound of MOTA)
+  scene  gt_boxes  boxes_with_prediction  coverage  MOTA_upper_bound_if_all_predictions_correct
+    S02     20956                   6182  0.294999                                     0.294999
+    S05    164471                  26923  0.163695                                     0.163695
+S02+S05    185427                  33105  0.178534                                     0.178534
+[crops] S04/c016: total so far 143
+[crops] S04/c017: total so far 214
+[crops] S04/c018: total so far 282
+[crops] S04/c019: total so far 364
+[crops] S04/c020: total so far 456
+[crops] S04/c021: total so far 546
+[crops] S04/c022: total so far 669
+[crops] S04/c023: total so far 797
+[crops] S04/c024: total so far 806
+[crops] S04/c025: total so far 928
+[crops] S04/c026: total so far 1306
+[crops] S04/c027: total so far 1515
+[crops] S04/c028: total so far 1548
+[crops] S04/c029: total so far 1729
+[crops] S04/c030: total so far 2042
+[crops] S04/c031: total so far 2083
+[crops] S04/c032: total so far 2375
+[crops] S04/c033: total so far 2877
+[crops] S04/c034: total so far 3388
+[crops] S04/c035: total so far 3531
+[crops] S04/c036: total so far 3942
+[crops] S04/c037: total so far 4173
+[crops] S04/c038: total so far 4381
+[crops] S04/c039: total so far 4466
+[crops] S04/c040: total so far 4683
+crops written: 4683 in 1.6 min
+TONIGHT PREPARATION DONE

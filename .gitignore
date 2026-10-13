@@ -1,0 +1,17 @@
+# datasets, caches and large intermediate files: never committed
+/data/
+/work/
+/logs/
+release_assets/
+results_7oct/
+*.pt
+*.pth
+*.npy
+*.avi
+*.mp4
+*.zip
+.venv/
+__pycache__/
+*.pyc
+kaggle.json
+/predictions/
